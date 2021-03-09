@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.HomePage" Title="Welcome" BackgroundColor="#121212" >
+
+    <StackLayout Padding="20" VerticalOptions="StartAndExpand">
+        <Label Padding="0,0,0,10" Text="Find Your Strain ____________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Button x:Name="effectButton" Text="BY EFFECT" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#404040" BorderColor="#8CFF98" BorderWidth="2" CornerRadius="10" />
+        <Button x:Name="medicalButton" Text="BY MEDICINAL USE" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#404040" BorderColor="#8CFF98" BorderWidth="2" CornerRadius="10" />
+        <Button x:Name="flavorButton" Text="BY FLAVOR" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#404040" BorderColor="#8CFF98" BorderWidth="2" CornerRadius="10" />
+        <Label Padding="0,10" Text="API Pull___________________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+        <ListView x:Name="resultsList" BackgroundColor="#121212">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding StrainName}" Detail="" TextColor="#8CFF98"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!--<Frame Margin="0,20" Background="#404040" BorderColor="#8CFF98" />-->
+    </StackLayout>
+
+</ContentPage>

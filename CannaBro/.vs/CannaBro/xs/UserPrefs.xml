@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{67A63CE0-CFE6-4A28-AA5C-853AF9DD8766}|Default" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.ItemProperties.CannaBro.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5893BD61-065A-4899-9853-FF8A35A4E49D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CannaBro/Models/DataManager.cs">
+    <Files>
+      <File FileName="CannaBro/Models/StrainData.cs" Line="6" Column="33" />
+      <File FileName="CannaBro/HomePage.xaml.cs" />
+      <File FileName="CannaBro/HomePage.xaml" />
+      <File FileName="CannaBro/Models/DataManager.cs" Line="17" Column="184" />
+      <File FileName="CannaBro/MainPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CannaBro" expanded="True">
+            <Node name="CannaBro" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="DataManager.cs" selected="True" />
+              </Node>
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CannaBro.Android PreferredExecutionTarget="Android.Pixel_3a_API_30_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
