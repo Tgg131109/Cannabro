@@ -864,11 +864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj",
+      "projectUniqueName": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
       "projectName": "CannaBro",
-      "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj",
+      "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
       "packagesPath": "/Users/tobygamble/.nuget/packages/",
-      "outputPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/",
+      "outputPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tobygamble/.config/NuGet/NuGet.Config"
@@ -928,7 +928,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

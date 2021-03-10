@@ -14,7 +14,7 @@ namespace CannaBro
 
             //signUpButton.IsEnabled = true;
 
-            firstnameEntry.Unfocused += (s, e) => { EnableSignUp();};
+            firstnameEntry.Unfocused += (s, e) => { EnableSignUp(); };
             firstnameEntry.TextChanged += (s, e) => { EnableSignUp(); };
             lastnameEntry.Unfocused += (s, e) => { EnableSignUp(); };
             lastnameEntry.TextChanged += (s, e) => { EnableSignUp(); };
@@ -63,7 +63,7 @@ namespace CannaBro
 
         private void PasswordEntry_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(passwordErrorLabel.IsVisible == true || confirmPasswordErrorLabel.IsVisible == true)
+            if (passwordErrorLabel.IsVisible == true || confirmPasswordErrorLabel.IsVisible == true)
             {
                 passwordEntry.TextColor = Color.FromHex("85d5bc");
                 confirmPasswordEntry.TextColor = Color.FromHex("85d5bc");
@@ -95,7 +95,7 @@ namespace CannaBro
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
 
             // Loop through each file to check for email.
-            foreach(var file in files)
+            foreach (var file in files)
             {
                 // Split each line into a string array.
                 string[] lineData = File.ReadAllText(file).Split(',');

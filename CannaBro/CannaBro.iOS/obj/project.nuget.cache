@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "geKQSpk8dMRzPY0TK4cXuMEDyfXB7CRJyTKYcMuRGObj4GzkSr0Og7R/l7OlQZ9GVftqnukus+vKnnpYFUqzDA==",
+  "dgSpecHash": "UfIxms5WaFd/ly3LrNiX36Y3fdXGYceaMbp6GSBLwJyhR8VTix+yCuNb1cD+s0GlytX2bELvbfuRhIzJHXdmQA==",
   "success": true,
-  "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
+  "projectFilePath": "/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/tobygamble/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

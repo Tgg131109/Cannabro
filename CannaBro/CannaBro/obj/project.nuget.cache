@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B3oOyLVMj6gwrSepCcIT7Zx8wYjAwr1nnu3bwNOuLrmqrtSJ9W4x8rQU8EF/mCAfGsr0MQPph9p1Co72240XGQ==",
+  "dgSpecHash": "+0aK5MnEmEC0JqvuReU64VAsbhtNjbO4xVElY67o8O5+e+BMkqTmwM12Ijoi7deS1LGeXRjkWBImnC2VJ+pi3w==",
   "success": true,
-  "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj",
+  "projectFilePath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
   "expectedPackageFiles": [
     "/Users/tobygamble/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

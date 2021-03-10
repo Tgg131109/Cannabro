@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v10.0": {
+    "MonoAndroid,Version=v11.0": {
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -2237,7 +2237,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v10.0": [
+    "MonoAndroid,Version=v11.0": [
       "CannaBro >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
       "Xamarin.CommunityToolkit >= 1.0.3",
@@ -2251,34 +2251,34 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
+      "projectUniqueName": "/Users/tobygamble/Desktop/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
       "projectName": "CannaBro.Android",
-      "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
+      "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
       "packagesPath": "/Users/tobygamble/.nuget/packages/",
-      "outputPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.Android/obj/",
+      "outputPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
         "/Users/tobygamble/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid10.0"
+        "monoandroid11.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid10.0": {
+        "monoandroid11.0": {
           "projectReferences": {
-            "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj": {
-              "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj"
+            "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj": {
+              "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj"
             }
           }
         }
       }
     },
     "frameworks": {
-      "monoandroid10.0": {
+      "monoandroid11.0": {
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",

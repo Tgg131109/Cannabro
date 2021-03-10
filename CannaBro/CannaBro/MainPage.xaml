@@ -4,5 +4,5 @@
             x:Class="CannaBro.MainPage"
             BarBackgroundColor="#121212"
             UnselectedTabColor="Gray"
-            SelectedTabColor="#8CFF98">
+            SelectedTabColor="#85d5bc">
 </TabbedPage>

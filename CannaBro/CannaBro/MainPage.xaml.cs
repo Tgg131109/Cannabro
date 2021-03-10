@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
@@ -14,6 +13,7 @@ namespace CannaBro
     public partial class MainPage : Xamarin.Forms.TabbedPage
     {
         DataManager dm = new DataManager();
+        //CurrentUserData currentUser = new CurrentUserData();
 
         public MainPage()
         {
@@ -26,8 +26,7 @@ namespace CannaBro
             homeNavigation.IconImageSource = "homeicon";
             homeNavigation.Title = "Home";
             homeNavigation.BarBackgroundColor = Color.FromHex("#121212");
-            //homeNavigation.BarBackgroundColor = Color.FromHex("8CFF98");
-            homeNavigation.BarTextColor = Color.FromHex("8CFF98");
+            homeNavigation.BarTextColor = Color.FromHex("85d5bc");
 
             Xamarin.Forms.NavigationPage findNavigation = new Xamarin.Forms.NavigationPage(new FindPage());
             findNavigation.IconImageSource = "findicon";
@@ -40,9 +39,11 @@ namespace CannaBro
             mapNavigation.BarBackgroundColor = Color.FromHex("#121212");
 
             Xamarin.Forms.NavigationPage profileNavigation = new Xamarin.Forms.NavigationPage(new ProfilePage());
+            //profileNavigation.On<iOS>().SetPrefersLargeTitles(true);
             profileNavigation.IconImageSource = "profileicon";
             profileNavigation.Title = "Profile";
             profileNavigation.BarBackgroundColor = Color.FromHex("#121212");
+            profileNavigation.BarTextColor = Color.FromHex("85d5bc");
 
             // Add views to tab bar.
             Children.Add(homeNavigation);

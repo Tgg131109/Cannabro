@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using CannaBro.Models;
+
 namespace CannaBro
 {
     public partial class HomePage : ContentPage
@@ -13,9 +14,10 @@ namespace CannaBro
         {
             InitializeComponent();
 
-            // Recieve messages to update carousel data.
+            // Recieve messages to update list data.
             MessagingCenter.Subscribe<List<StrainData>>(this, "Results", (sender) =>
             {
+                Console.WriteLine("Home page recieved data");
                 resultsList.ItemsSource = sender.ToList();
             });
         }

@@ -8,15 +8,9 @@ namespace CannaBro
 {
     public partial class SignInPage : ContentPage
     {
-        ThemeData theme = new ThemeData();
-
         public SignInPage()
         {
             InitializeComponent();
-
-            Console.WriteLine(theme.PrimaryColor);
-            Console.WriteLine(signInButton.BindingContext);
-            Console.WriteLine(signInButton.BackgroundColor);
 
             usernameEntry.Unfocused += (s, e) => { EnableSignIn(); };
             usernameEntry.TextChanged += (s, e) => { EnableSignIn(); };
@@ -28,7 +22,7 @@ namespace CannaBro
 
         private void EnableSignIn()
         {
-            if(usernameErrorLabel.IsVisible == true || passwordErrorLabel.IsVisible == true)
+            if (usernameErrorLabel.IsVisible == true || passwordErrorLabel.IsVisible == true)
             {
                 usernameErrorLabel.IsVisible = false;
                 passwordErrorLabel.IsVisible = false;
@@ -47,6 +41,7 @@ namespace CannaBro
         private async void SignInButton_Clicked(object sender, EventArgs e)
         {
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
+            bool foundUser = false;
 
             // Loop through each file to check for user credentials.
             foreach (var file in files)
@@ -60,8 +55,30 @@ namespace CannaBro
                     // Check if password is valid.
                     if (passwordEntry.Text == lineData[5])
                     {
+                        // Clear username and password fields.
+                        usernameEntry.Text = null;
+                        passwordEntry.Text = null;
+
+                        // Set current user.
+                        CurrentUserData currentUser = new CurrentUserData
+                        {
+                            //currentUser.FileName = ;
+                            MemberSince = DateTime.Parse(lineData[0].ToString()),
+                            FirstName = lineData[1].ToString(),
+                            LastName = lineData[2].ToString(),
+                            Username = lineData[3].ToString(),
+                            Email = lineData[4].ToString(),
+                            Password = lineData[5].ToString(),
+                            Initials = $"{lineData[1].ToString().Substring(0, 1)}{lineData[2].ToString().Substring(0, 1)}"
+                        };
+
+                        foundUser = true;
+
                         // Navigate to home page.
                         _ = Navigation.PushModalAsync(new MainPage());
+
+                        // Send user info to profile page.
+                        MessagingCenter.Send(currentUser, "Current User");
 
                         break;
                     }
@@ -75,8 +92,9 @@ namespace CannaBro
                         passwordEntry.Focus();
                         signInButton.IsEnabled = false;
 
-                        await DisplayAlert("Error","The password you entered is incorrect. Please try again.","Word");
-                        //break;
+                        await DisplayAlert("Error", "The password you entered is incorrect. Please try again.", "Word");
+
+                        break;
                     }
                 }
                 else
@@ -89,15 +107,9 @@ namespace CannaBro
                     usernameEntry.Focus();
                     signInButton.IsEnabled = false;
                 }
-
-                Console.WriteLine(lineData[1].ToString());
-                Console.WriteLine(lineData[2].ToString());
-                Console.WriteLine(lineData[3].ToString());
-                Console.WriteLine(lineData[4].ToString());
-                Console.WriteLine(lineData[5].ToString());
             }
 
-            if(signInButton.IsEnabled == false)
+            if (foundUser == false)
             {
                 bool answer = await DisplayAlert("Error", "There is no account with the provided username or email. Do you wish to sign up?", "Try Again", "Sign Up");
 

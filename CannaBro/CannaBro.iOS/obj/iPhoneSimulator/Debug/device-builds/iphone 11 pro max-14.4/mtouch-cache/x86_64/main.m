@@ -1,3 +1,10 @@
+extern "C" void xamarin_create_classes_Xamarin_iOS();
+
+static void xamarin_invoke_registration_methods ()
+{
+	xamarin_create_classes_Xamarin_iOS();
+}
+
 #include "xamarin/xamarin.h"
 
 
@@ -16,10 +23,9 @@ void xamarin_register_assemblies_impl ()
 
 }
 
-extern "C" void xamarin_create_classes_Xamarin_iOS();
 void xamarin_setup_impl ()
 {
-	xamarin_create_classes_Xamarin_iOS();
+	xamarin_invoke_registration_methods ();
 
 	mono_dllmap_insert (NULL, "System.Native", NULL, "__Internal", NULL);
 	mono_dllmap_insert (NULL, "System.Security.Cryptography.Native.Apple", NULL, "__Internal", NULL);
