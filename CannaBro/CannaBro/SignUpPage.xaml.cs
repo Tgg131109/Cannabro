@@ -18,11 +18,12 @@ namespace CannaBro
             firstnameEntry.TextChanged += (s, e) => { EnableSignUp(); };
             lastnameEntry.Unfocused += (s, e) => { EnableSignUp(); };
             lastnameEntry.TextChanged += (s, e) => { EnableSignUp(); };
+            usernameEntry.Unfocused += (s, e) => { EnableSignUp(); };
+            //usernameEntry.TextChanged += (s, e) => { EnableSignUp(); };
+            usernameEntry.TextChanged += UsernameEntry_TextChanged;
             emailEntry.Unfocused += (s, e) => { EnableSignUp(); };
             //emailEntry.TextChanged += (s, e) => { EnableSignUp(); };
             emailEntry.TextChanged += EmailEntry_TextChanged;
-            birthdayEntry.Unfocused += (s, e) => { EnableSignUp(); };
-            birthdayEntry.TextChanged += (s, e) => { EnableSignUp(); };
             passwordEntry.Unfocused += (s, e) => { EnableSignUp(); };
             //passwordEntry.TextChanged += (s, e) => { EnableSignUp(); };
             passwordEntry.TextChanged += PasswordEntry_TextChanged;
@@ -36,6 +37,17 @@ namespace CannaBro
         protected override void OnAppearing()
         {
             signUpExpander.IsExpanded = true;
+        }
+
+        private void UsernameEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (usernameErrorLabel.IsVisible == true)
+            {
+                usernameEntry.TextColor = Color.FromHex("85d5bc");
+                usernameErrorLabel.IsVisible = false;
+            }
+
+            EnableSignUp();
         }
 
         private void EmailEntry_TextChanged(object sender, TextChangedEventArgs e)
@@ -66,9 +78,8 @@ namespace CannaBro
         private void EnableSignUp()
         {
             // Enable sign in button if required fields are complete.
-
             if (!string.IsNullOrWhiteSpace(firstnameEntry.Text) && !string.IsNullOrWhiteSpace(lastnameEntry.Text)
-                && !string.IsNullOrWhiteSpace(emailEntry.Text) && !string.IsNullOrWhiteSpace(birthdayEntry.Text)
+                && !string.IsNullOrWhiteSpace(emailEntry.Text) && !string.IsNullOrWhiteSpace(usernameEntry.Text)
                 && !string.IsNullOrWhiteSpace(passwordEntry.Text) && !string.IsNullOrWhiteSpace(confirmPasswordEntry.Text))
             {
                 signUpButton.IsEnabled = true;
@@ -79,10 +90,8 @@ namespace CannaBro
             }
         }
 
-        private void SignUpButton_Clicked(object sender, EventArgs e)
+        private async void SignUpButton_Clicked(object sender, EventArgs e)
         {
-            // Check if age is valid.
-
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
 
             // Loop through each file to check for email.
@@ -91,50 +100,78 @@ namespace CannaBro
                 // Split each line into a string array.
                 string[] lineData = File.ReadAllText(file).Split(',');
 
-                // Check if email exits.
-                if (lineData[3].ToString() == emailEntry.Text)
+                // Check if email is valid.
+                if (emailEntryValidator.IsNotValid)
                 {
-                    // Display error.
-                    Console.WriteLine("Email exists.");
-
                     emailEntry.TextColor = Color.IndianRed;
+                    emailErrorLabel.Text = "Invalid email address.";
                     emailErrorLabel.IsVisible = true;
                     emailEntry.Focus();
                     signUpButton.IsEnabled = false;
 
-                    continue;
+                    // Display error.
+                    await DisplayAlert("Error", "The email you entered is not a valid email address. Please try again.", "Word");
+
+                    break;
+                }
+                // Check if email exits.
+                else if (lineData[3].ToString() == emailEntry.Text)
+                {
+                    emailEntry.TextColor = Color.IndianRed;
+                    emailErrorLabel.Text = "Email is already registered.";
+                    emailErrorLabel.IsVisible = true;
+                    emailEntry.Focus();
+                    signUpButton.IsEnabled = false;
+
+                    // Display error.
+                    await DisplayAlert("Error", "The email you entered is associated with an existing account. Please try again.", "Word");
+
+                    break;
+                }
+                // Check if username is not taken.
+                else if (lineData[4].ToString() == usernameEntry.Text)
+                {
+                    usernameEntry.TextColor = Color.IndianRed;
+                    usernameErrorLabel.IsVisible = true;
+                    usernameEntry.Focus();
+                    signUpButton.IsEnabled = false;
+
+                    // Display error.
+                    await DisplayAlert("Error", "The username you entered is associated with an existing account. Please try again.", "Word");
+
+                    break;
                 }
                 // Check if password is sufficient length.
                 else if (passwordEntry.Text.Length < 6)
                 {
-                    // Display error.
-                    Console.WriteLine("Password is too short");
-
                     passwordErrorLabel.IsVisible = true;
                     passwordEntry.Focus();
                     signUpButton.IsEnabled = false;
 
-                    continue;
+                    // Display error.
+                    await DisplayAlert("Error", "Your password must be at least 6 characters in length. Please try again.", "Word");
+
+                    break;
                 }
                 // Check if passwords match.
                 else if (passwordEntry.Text != confirmPasswordEntry.Text)
                 {
-                    // Display error.
                     passwordEntry.TextColor = Color.IndianRed;
                     confirmPasswordEntry.TextColor = Color.IndianRed;
-                    Console.WriteLine("Emails don't match.");
-
                     confirmPasswordErrorLabel.IsVisible = true;
                     passwordEntry.Focus();
                     signUpButton.IsEnabled = false;
 
-                    continue;
+                    // Display error.
+                    await DisplayAlert("Error", "The passwords you entered do not match. Please try again.", "Word");
+
+                    break;
                 }
                 else
                 {
                     // Create and save new user.
                     var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.CannaBroUsers.txt");
-                    File.WriteAllText(filename, $"{DateTime.Now},{firstnameEntry.Text},{lastnameEntry.Text},{emailEntry.Text},{birthdayEntry.Text},{passwordEntry.Text}");
+                    File.WriteAllText(filename, $"{DateTime.Now},{firstnameEntry.Text},{lastnameEntry.Text},{emailEntry.Text},{usernameEntry.Text},{passwordEntry.Text}");
 
                     // Collapse fields.
                     signUpExpander.IsExpanded = false;
@@ -144,8 +181,6 @@ namespace CannaBro
 
                     // Display confirmation.
                     goHomeExpander.IsExpanded = true;
-
-                    //continue;
                 }
             }
 

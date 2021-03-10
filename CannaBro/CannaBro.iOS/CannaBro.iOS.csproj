@@ -113,6 +113,29 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\applelogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\applelogo.imageset\icons8-apple_logo.png" />
+    <ImageAsset Include="Assets.xcassets\savedicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\savedicon.imageset\icons8-heart_plus.png" />
+    <ImageAsset Include="Assets.xcassets\recentsicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\recentsicon.imageset\icons8-time_machine.png" />
+    <ImageAsset Include="Assets.xcassets\applelogo.imageset\icons8-apple_logo-1.png" />
+    <ImageAsset Include="Assets.xcassets\homeicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\homeicon.imageset\icons8-home_page.png" />
+    <ImageAsset Include="Assets.xcassets\profileicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\profileicon.imageset\icons8-male_user.png" />
+    <ImageAsset Include="Assets.xcassets\facebooklogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\facebooklogo.imageset\icons8-facebook_f-1.png" />
+    <ImageAsset Include="Assets.xcassets\googlelogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\googlelogo.imageset\icons8-google.png" />
+    <ImageAsset Include="Assets.xcassets\twitterlogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\twitterlogo.imageset\icons8-twitter.png" />
+    <ImageAsset Include="Assets.xcassets\homeicon.imageset\icons8-home_page-1.png" />
+    <ImageAsset Include="Assets.xcassets\profileicon.imageset\icons8-male_user-1.png" />
+    <ImageAsset Include="Assets.xcassets\mapicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\mapicon.imageset\icons8-map.png" />
+    <ImageAsset Include="Assets.xcassets\findicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\findicon.imageset\icons8-search.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -138,5 +161,17 @@
       <Project>{21118907-B790-4EF7-8E86-2F362B82164E}</Project>
       <Name>CannaBro</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\applelogo.imageset\" />
+    <Folder Include="Assets.xcassets\savedicon.imageset\" />
+    <Folder Include="Assets.xcassets\recentsicon.imageset\" />
+    <Folder Include="Assets.xcassets\homeicon.imageset\" />
+    <Folder Include="Assets.xcassets\profileicon.imageset\" />
+    <Folder Include="Assets.xcassets\facebooklogo.imageset\" />
+    <Folder Include="Assets.xcassets\googlelogo.imageset\" />
+    <Folder Include="Assets.xcassets\twitterlogo.imageset\" />
+    <Folder Include="Assets.xcassets\mapicon.imageset\" />
+    <Folder Include="Assets.xcassets\findicon.imageset\" />
   </ItemGroup>
 </Project>

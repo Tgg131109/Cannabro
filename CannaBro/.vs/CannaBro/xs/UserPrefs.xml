@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{67A63CE0-CFE6-4A28-AA5C-853AF9DD8766}|Default" HasHotReloadOverlayBeenDismissed="True">
   <MonoDevelop.Ide.ItemProperties.CannaBro.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5893BD61-065A-4899-9853-FF8A35A4E49D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CannaBro/SignUpPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CannaBro/MainPage.xaml.cs">
     <Files>
       <File FileName="CannaBro/Models/DataManager.cs" Line="27" Column="18" />
       <File FileName="CannaBro/Models/StrainData.cs" />
       <File FileName="CannaBro/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="CannaBro/SignInPage.xaml.cs" Line="73" Column="54" />
-      <File FileName="CannaBro/SignInPage.xaml" Line="8" Column="56" />
-      <File FileName="CannaBro/SignUpPage.xaml.cs" Line="72" Column="1" />
-      <File FileName="CannaBro/SignUpPage.xaml" Line="22" Column="64" />
+      <File FileName="CannaBro/SignInPage.xaml.cs" Line="79" Column="1" />
+      <File FileName="CannaBro/SignInPage.xaml" Line="31" Column="67" />
+      <File FileName="CannaBro/SignUpPage.xaml.cs" Line="160" Column="70" />
+      <File FileName="CannaBro/SignUpPage.xaml" Line="15" Column="83" />
       <File FileName="CannaBro/HomePage.xaml.cs" Line="21" Column="1" />
-      <File FileName="CannaBro/HomePage.xaml" Line="7" Column="1" />
+      <File FileName="CannaBro/HomePage.xaml" Line="5" Column="60" />
       <File FileName="../../../IPG/Week 4/final-project-GambleToby-FS/GambleToby_Final/GambleToby_Final/Tab1Favorites.xaml.cs" Line="127" Column="1" />
       <File FileName="../../../IPG/Week 4/final-project-GambleToby-FS/GambleToby_Final/GambleToby_Final/Tab3Search.xaml.cs" Line="1" Column="1" />
-      <File FileName="../../xamarin-forms-samples/UserInterface/ExpanderDemos/ExpanderDemos/Views/BasicExpanderContentTemplatePage.xaml" Line="15" Column="35" />
+      <File FileName="CannaBro/MainPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,9 +24,11 @@
               <Node name="Models" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="HomePage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
               <Node name="SignInPage.xaml" expanded="True" />
-              <Node name="SignUpPage.xaml" expanded="True" selected="True" />
+              <Node name="SignUpPage.xaml" expanded="True" />
             </Node>
             <Node name="CannaBro.iOS" expanded="True" />
           </Node>

@@ -28,9 +28,9 @@ namespace CannaBro
 
         private void EnableSignIn()
         {
-            if(emailErrorLabel.IsVisible == true || passwordErrorLabel.IsVisible == true)
+            if(usernameErrorLabel.IsVisible == true || passwordErrorLabel.IsVisible == true)
             {
-                emailErrorLabel.IsVisible = false;
+                usernameErrorLabel.IsVisible = false;
                 passwordErrorLabel.IsVisible = false;
 
                 usernameEntry.TextColor = Color.FromHex("85d5bc");
@@ -44,18 +44,18 @@ namespace CannaBro
             }
         }
 
-        private void SignInButton_Clicked(object sender, EventArgs e)
+        private async void SignInButton_Clicked(object sender, EventArgs e)
         {
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
 
-            // Loop through each file to check for email.
+            // Loop through each file to check for user credentials.
             foreach (var file in files)
             {
                 // Split each line into a string array.
                 string[] lineData = File.ReadAllText(file).Split(',');
 
                 // Check if username is valid
-                if (usernameEntry.Text == lineData[3])
+                if (usernameEntry.Text == lineData[3] || usernameEntry.Text == lineData[4])
                 {
                     // Check if password is valid.
                     if (passwordEntry.Text == lineData[5])
@@ -63,6 +63,7 @@ namespace CannaBro
                         // Navigate to home page.
                         _ = Navigation.PushModalAsync(new MainPage());
 
+                        break;
                     }
                     else
                     {
@@ -72,8 +73,10 @@ namespace CannaBro
                         passwordEntry.TextColor = Color.IndianRed;
                         passwordErrorLabel.IsVisible = true;
                         passwordEntry.Focus();
+                        signInButton.IsEnabled = false;
 
-                        break;
+                        await DisplayAlert("Error","The password you entered is incorrect. Please try again.","Word");
+                        //break;
                     }
                 }
                 else
@@ -82,10 +85,9 @@ namespace CannaBro
                     Console.WriteLine("User does not exist.");
 
                     usernameEntry.TextColor = Color.IndianRed;
-                    emailErrorLabel.IsVisible = true;
+                    usernameErrorLabel.IsVisible = true;
                     usernameEntry.Focus();
-
-                    break;
+                    signInButton.IsEnabled = false;
                 }
 
                 Console.WriteLine(lineData[1].ToString());
@@ -93,7 +95,21 @@ namespace CannaBro
                 Console.WriteLine(lineData[3].ToString());
                 Console.WriteLine(lineData[4].ToString());
                 Console.WriteLine(lineData[5].ToString());
+            }
 
+            if(signInButton.IsEnabled == false)
+            {
+                bool answer = await DisplayAlert("Error", "There is no account with the provided username or email. Do you wish to sign up?", "Try Again", "Sign Up");
+
+                if (answer == false)
+                {
+                    // Clear username and password fields.
+                    usernameEntry.Text = null;
+                    passwordEntry.Text = null;
+
+                    // Navigate to sign up page.
+                    _ = Navigation.PushAsync(new SignUpPage());
+                }
             }
         }
 

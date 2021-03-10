@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.SignInPage" BackgroundColor="#121212">
     <StackLayout Padding="30,20">
         <Entry x:Name="usernameEntry" Placeholder="Email or Username" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
-        <Label x:Name="emailErrorLabel" Text="Email is not registered." TextColor="IndianRed" IsVisible="False"/>
+        <Label x:Name="usernameErrorLabel" Text="Username or Email not found." TextColor="IndianRed" IsVisible="False"/>
         <Entry x:Name="passwordEntry" Placeholder="Password" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc" IsPassword="True"/>
         <Label x:Name="passwordErrorLabel" Text="Incorrect password." TextColor="IndianRed" IsVisible="False" />
         <Button x:Name="signInButton" Margin="0,20,0,0"  Text="SIGN IN" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" CornerRadius="10" HeightRequest="60" IsEnabled="False" />
@@ -25,10 +25,10 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Button x:Name="appleButton" Text="A" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" />
-            <Button x:Name="facebookButton" Text="F" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" Grid.Column="1" />
-            <Button x:Name="twitterButton" Text="T" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" Grid.Column="2" />
-            <Button x:Name="googleButton" Text="G" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" Grid.Column="3"/>
+            <Button x:Name="appleButton" ImageSource="applelogo" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" />
+            <Button x:Name="facebookButton" ImageSource="facebooklogo" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" Grid.Column="1" />
+            <Button x:Name="twitterButton" ImageSource="googlelogo" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" Grid.Column="2" />
+            <Button x:Name="googleButton" ImageSource="twitterlogo" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="30" WidthRequest="60" HeightRequest="60" Grid.Column="3"/>
         </Grid>
 
         <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Padding="0,20" >

@@ -23,20 +23,24 @@ namespace CannaBro
             // Create tab views.
             Xamarin.Forms.NavigationPage homeNavigation = new Xamarin.Forms.NavigationPage(new HomePage());
             homeNavigation.On<iOS>().SetPrefersLargeTitles(true);
+            homeNavigation.IconImageSource = "homeicon";
             homeNavigation.Title = "Home";
             homeNavigation.BarBackgroundColor = Color.FromHex("#121212");
             //homeNavigation.BarBackgroundColor = Color.FromHex("8CFF98");
             homeNavigation.BarTextColor = Color.FromHex("8CFF98");
 
             Xamarin.Forms.NavigationPage findNavigation = new Xamarin.Forms.NavigationPage(new FindPage());
+            findNavigation.IconImageSource = "findicon";
             findNavigation.Title = "Find";
             findNavigation.BarBackgroundColor = Color.FromHex("#121212");
 
             Xamarin.Forms.NavigationPage mapNavigation = new Xamarin.Forms.NavigationPage(new MapPage());
+            mapNavigation.IconImageSource = "mapicon";
             mapNavigation.Title = "Map";
             mapNavigation.BarBackgroundColor = Color.FromHex("#121212");
 
             Xamarin.Forms.NavigationPage profileNavigation = new Xamarin.Forms.NavigationPage(new ProfilePage());
+            profileNavigation.IconImageSource = "profileicon";
             profileNavigation.Title = "Profile";
             profileNavigation.BarBackgroundColor = Color.FromHex("#121212");
 

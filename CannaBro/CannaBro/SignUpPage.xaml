@@ -5,8 +5,13 @@
             <StackLayout Padding="30,20">
                 <Entry x:Name="firstnameEntry" Placeholder="First Name" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
                 <Entry x:Name="lastnameEntry" Placeholder="Last Name" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
-                <Entry x:Name="birthdayEntry" Placeholder="Date of Birth" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
-                <Entry x:Name="emailEntry" Placeholder="Email" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
+                <Entry x:Name="usernameEntry" Placeholder="Username" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
+                <Label x:Name="usernameErrorLabel" Text="Username is not available." TextColor="IndianRed" IsVisible="False" />
+                <Entry x:Name="emailEntry" Placeholder="Email" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc">
+                    <Entry.Behaviors>
+                        <xct:EmailValidationBehavior x:Name="emailEntryValidator" DecorationFlags="Trim"/>
+                    </Entry.Behaviors>
+                </Entry>
                 <Label x:Name="emailErrorLabel" Text="Email is already registered." TextColor="IndianRed" IsVisible="False"/>
                 <Entry x:Name="passwordEntry" Placeholder="Password" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc" IsPassword="True"/>
                 <Label x:Name="passwordErrorLabel" Text="Password must be 6-8 characters." TextColor="IndianRed" IsVisible="False" />
