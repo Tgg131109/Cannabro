@@ -18,13 +18,13 @@
           "/Users/tobygamble/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid90"
+          "monoandroid10.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid90": {
+          "monoandroid10.0": {
             "projectReferences": {
               "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj": {
                 "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj"
@@ -34,11 +34,15 @@
         }
       },
       "frameworks": {
-        "monoandroid90": {
+        "monoandroid10.0": {
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -95,6 +99,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

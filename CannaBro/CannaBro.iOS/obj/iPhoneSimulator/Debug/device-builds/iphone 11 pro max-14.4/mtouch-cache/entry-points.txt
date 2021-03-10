@@ -66,13 +66,69 @@ Function=xamarin_log
 	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_get_locale_country_code
 	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetDomainSocketSizes
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.Core.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContextEx
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_GetUser
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=BrotliDecoderCreateInstance
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompressStream
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompress
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDestroyInstance
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderIsFinished
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCreateInstance
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderSetParameter
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompressStream
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderHasMoreOutput
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderDestroyInstance
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompress
+	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=xamarin_find_protocol_wrapper_type
 	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_release_block_on_main_thread
 	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=xamarin_start_wwan
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
 Function=xamarin_get_block_descriptor
 	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__NMatrix4_objc_msgSend
@@ -1089,62 +1145,6 @@ Function=xamarin_init_nsthread
 	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_os_log
 	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=NetSecurityNative_ReleaseGssBuffer
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMinorStatus
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMajorStatus
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportUserName
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportPrincipalName
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseName
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredSpNego
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredWithPassword
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseCred
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContext
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContextEx
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_AcceptSecContext
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DeleteSecContext
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_GetUser
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Wrap
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Unwrap
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.dll
-Function=SystemNative_GetDomainSocketSizes
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.Core.dll
-Function=BrotliDecoderCreateInstance
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompressStream
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompress
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDestroyInstance
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderIsFinished
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCreateInstance
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderSetParameter
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompressStream
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderHasMoreOutput
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderDestroyInstance
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompress
-	/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

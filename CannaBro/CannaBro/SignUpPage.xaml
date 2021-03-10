@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:xct="http://xamarin.com/schemas/2020/toolkit" x:Class="CannaBro.SignUpPage" BackgroundColor="#121212" Title="Sign Up" NavigationPage.BackButtonTitle="Sign In">
+    <StackLayout>
+        <xct:Expander x:Name="signUpExpander">
+            <StackLayout Padding="30,20">
+                <Entry x:Name="firstnameEntry" Placeholder="First Name" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
+                <Entry x:Name="lastnameEntry" Placeholder="Last Name" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
+                <Entry x:Name="birthdayEntry" Placeholder="Date of Birth" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
+                <Entry x:Name="emailEntry" Placeholder="Email" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
+                <Label x:Name="emailErrorLabel" Text="Email is already registered." TextColor="IndianRed" IsVisible="False"/>
+                <Entry x:Name="passwordEntry" Placeholder="Password" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc" IsPassword="True"/>
+                <Label x:Name="passwordErrorLabel" Text="Password must be 6-8 characters." TextColor="IndianRed" IsVisible="False" />
+                <Entry x:Name="confirmPasswordEntry" Placeholder="Confirm Password" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc" IsPassword="True"/>
+                <Label x:Name="confirmPasswordErrorLabel" Text="Passwords do not match." TextColor="IndianRed" IsVisible="False" />
+                <Button x:Name="signUpButton" Margin="0,20,0,0" Text="SIGN UP" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="10" HeightRequest="60" IsEnabled="False" />
+            </StackLayout>
+        </xct:Expander>
+
+        <xct:Expander x:Name="goHomeExpander" Direction="Up" VerticalOptions="CenterAndExpand">
+            <StackLayout Padding="30,20">
+                <Label Text="Success!" TextColor="#85d5bc" FontSize="60" FontAttributes="Bold" />
+                <Label Text="Your account has been successfully created. You are now ready to start searching the Cannabro app for your perfect match!" TextColor="#85d5bc" FontSize="20" FontAttributes="Bold" />
+                <Button x:Name="goHomeButton" Margin="0,20" Text="GO HOME" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" BorderWidth="2" CornerRadius="10" HeightRequest="60" />
+            </StackLayout>
+        </xct:Expander>
+    </StackLayout>
+</ContentPage>

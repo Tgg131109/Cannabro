@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.HomePage" Title="Welcome" BackgroundColor="#121212" >
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.HomePage" Title="Welcome" BackgroundColor="#121212">
+    <ContentPage.ToolbarItems>
+    <ToolbarItem Text="􀊵" Order="Primary" Priority="0" />
+    <ToolbarItem Text="􀐬" />
+    </ContentPage.ToolbarItems>
 
     <StackLayout Padding="20" VerticalOptions="StartAndExpand">
         <Label Padding="0,0,0,10" Text="Find Your Strain ____________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />

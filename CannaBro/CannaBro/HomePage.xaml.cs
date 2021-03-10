@@ -18,8 +18,6 @@ namespace CannaBro
             {
                 resultsList.ItemsSource = sender.ToList();
             });
-
-            Console.WriteLine("home");
         }
     }
 }

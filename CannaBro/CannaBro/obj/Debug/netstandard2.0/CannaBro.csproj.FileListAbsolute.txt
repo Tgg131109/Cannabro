@@ -2,12 +2,15 @@
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/ref/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.pdb
+/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.csprojAssemblyReference.cache
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/FindPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/MapPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/ProfilePage.xaml.g.cs
+/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/SignInPage.xaml.g.cs
+/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.AssemblyInfoInputs.cache
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.AssemblyInfo.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.csproj.CoreCompileInputs.cache

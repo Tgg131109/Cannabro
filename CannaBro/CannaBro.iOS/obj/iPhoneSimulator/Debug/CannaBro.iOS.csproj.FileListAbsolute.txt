@@ -1,6 +1,7 @@
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/CannaBro.iOS.exe
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/CannaBro.iOS.pdb
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/Xamarin.CommunityToolkit.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
