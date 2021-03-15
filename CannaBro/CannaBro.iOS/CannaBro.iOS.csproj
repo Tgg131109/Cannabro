@@ -142,6 +142,10 @@
     <ImageAsset Include="Assets.xcassets\Assets.xcassets\applelogo.imageset\icons8-apple_logo.png" />
     <ImageAsset Include="Assets.xcassets\Assets.xcassets\savedicon.imageset\icons8-heart_plus-1.png" />
     <ImageAsset Include="Assets.xcassets\Assets.xcassets\savedicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\favoritesicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\favoritesicon.imageset\icons8-cannabis.png" />
+    <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Asset 60%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -167,5 +171,9 @@
       <Project>{6DC81D79-FB67-401E-AA3F-2EAE18997EED}</Project>
       <Name>CannaBro</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\favoritesicon.imageset\" />
+    <Folder Include="Assets.xcassets\cannabrologo.imageset\" />
   </ItemGroup>
 </Project>

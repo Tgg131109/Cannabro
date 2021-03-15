@@ -45,6 +45,8 @@
 /Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.dll
+/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
 /Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/CannaBro.dll
 /Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/CannaBro.pdb
 /Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/_PartialAppManifest.items

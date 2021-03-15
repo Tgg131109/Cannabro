@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using CannaBro.Models;
 using Xamarin.CommunityToolkit;
 using Xamarin.Forms;
 
@@ -8,6 +9,8 @@ namespace CannaBro
 {
     public partial class SignUpPage : ContentPage
     {
+        CurrentUserData currentUser = new CurrentUserData();
+
         public SignUpPage()
         {
             InitializeComponent();
@@ -41,6 +44,7 @@ namespace CannaBro
 
         private void UsernameEntry_TextChanged(object sender, TextChangedEventArgs e)
         {
+            // Clear error labels and color if present.
             if (usernameErrorLabel.IsVisible == true)
             {
                 usernameEntry.TextColor = Color.FromHex("85d5bc");
@@ -52,6 +56,7 @@ namespace CannaBro
 
         private void EmailEntry_TextChanged(object sender, TextChangedEventArgs e)
         {
+            // Clear error labels and color if present.
             if (emailErrorLabel.IsVisible == true)
             {
                 emailEntry.TextColor = Color.FromHex("85d5bc");
@@ -63,6 +68,7 @@ namespace CannaBro
 
         private void PasswordEntry_TextChanged(object sender, TextChangedEventArgs e)
         {
+            // Clear error labels and color if present.
             if (passwordErrorLabel.IsVisible == true || confirmPasswordErrorLabel.IsVisible == true)
             {
                 passwordEntry.TextColor = Color.FromHex("85d5bc");
@@ -110,7 +116,7 @@ namespace CannaBro
                     signUpButton.IsEnabled = false;
 
                     // Display error.
-                    await DisplayAlert("Error", "The email you entered is not a valid email address. Please try again.", "Word");
+                    await DisplayAlert("Error", "The email you entered is not a valid email address. Please try again.", "OK");
 
                     break;
                 }
@@ -124,7 +130,7 @@ namespace CannaBro
                     signUpButton.IsEnabled = false;
 
                     // Display error.
-                    await DisplayAlert("Error", "The email you entered is associated with an existing account. Please try again.", "Word");
+                    await DisplayAlert("Error", "The email you entered is associated with an existing account. Please try again.", "OK");
 
                     break;
                 }
@@ -137,7 +143,7 @@ namespace CannaBro
                     signUpButton.IsEnabled = false;
 
                     // Display error.
-                    await DisplayAlert("Error", "The username you entered is associated with an existing account. Please try again.", "Word");
+                    await DisplayAlert("Error", "The username you entered is associated with an existing account. Please try again.", "OK");
 
                     break;
                 }
@@ -149,7 +155,7 @@ namespace CannaBro
                     signUpButton.IsEnabled = false;
 
                     // Display error.
-                    await DisplayAlert("Error", "Your password must be at least 6 characters in length. Please try again.", "Word");
+                    await DisplayAlert("Error", "Your password must be at least 6 characters in length. Please try again.", "OK");
 
                     break;
                 }
@@ -163,7 +169,7 @@ namespace CannaBro
                     signUpButton.IsEnabled = false;
 
                     // Display error.
-                    await DisplayAlert("Error", "The passwords you entered do not match. Please try again.", "Word");
+                    await DisplayAlert("Error", "The passwords you entered do not match. Please try again.", "OK");
 
                     break;
                 }
@@ -181,6 +187,21 @@ namespace CannaBro
 
                     // Display confirmation.
                     goHomeExpander.IsExpanded = true;
+
+                    // Display notification.
+                    await DisplayAlert("Success", "Your CannaBro account has been successfully created.", "OK");
+
+                    // Set current user.
+                    //currentUser.FileName = ;
+                    currentUser.MemberSince = DateTime.Now;
+                    currentUser.FirstName = firstnameEntry.Text;
+                    currentUser.LastName = lastnameEntry.Text;
+                    currentUser.Username = usernameEntry.Text;
+                    currentUser.Email = emailEntry.Text;
+                    currentUser.Password = passwordEntry.Text;
+                    currentUser.Initials = $"{firstnameEntry.Text.Substring(0, 1)}{lastnameEntry.Text.Substring(0, 1)}";
+
+                    break;
                 }
             }
 
@@ -225,6 +246,9 @@ namespace CannaBro
         {
             // Navigate to home page.
             Navigation.PushModalAsync(new MainPage());
+
+            // Send user info to profile page.
+            MessagingCenter.Send(currentUser, "Current User");
         }
     }
 }

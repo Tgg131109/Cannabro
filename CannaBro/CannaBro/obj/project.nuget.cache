@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+0aK5MnEmEC0JqvuReU64VAsbhtNjbO4xVElY67o8O5+e+BMkqTmwM12Ijoi7deS1LGeXRjkWBImnC2VJ+pi3w==",
+  "dgSpecHash": "o4LiQ29fXyvwTiBQmaxCafsLELa0aDcIPO1AtcHgcjUfG47OId8JuKxWXQXDRU2EuSnUXYoUkJXq7TWzL+NSBQ==",
   "success": true,
   "projectFilePath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,8 @@
     "/Users/tobygamble/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.communitytoolkit/1.0.3/xamarin.communitytoolkit.1.0.3.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
-    "/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

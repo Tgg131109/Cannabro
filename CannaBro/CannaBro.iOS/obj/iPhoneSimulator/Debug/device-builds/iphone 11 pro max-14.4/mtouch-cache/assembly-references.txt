@@ -23,6 +23,8 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/14.14.2.5/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll
+/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll
+/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll
 /Users/tobygamble/Desktop/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll
 /Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/tobygamble/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll

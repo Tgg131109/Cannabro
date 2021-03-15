@@ -22,7 +22,7 @@ namespace CannaBro
                 avatarView.Text = sender.Initials;
                 userName.Text = $"{sender.FirstName} {sender.LastName}";
                 userEmail.Text = sender.Email;
-                userDate.Text = $"Member since {sender.MemberSince:MM yyyy}";
+                userDate.Text = $"Member since {sender.MemberSince:MMM yyyy}";
             });
         }
 

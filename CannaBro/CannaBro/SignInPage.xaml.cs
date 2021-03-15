@@ -16,8 +16,26 @@ namespace CannaBro
             usernameEntry.TextChanged += (s, e) => { EnableSignIn(); };
             passwordEntry.Unfocused += (s, e) => { EnableSignIn(); };
             passwordEntry.TextChanged += (s, e) => { EnableSignIn(); };
+            forgotButton.Clicked += ForgotButton_ClickedAsync;
             signInButton.Clicked += SignInButton_Clicked;
             signUpButton.Clicked += SignUpButton_Clicked;
+
+            var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
+            foreach (var file in files)
+            {
+                // Split each line into a string array.
+                string[] lineData = File.ReadAllText(file).Split(',');
+
+                Console.WriteLine("--USER INFO----------------");
+                Console.WriteLine(lineData[0]);
+                Console.WriteLine(lineData[1]);
+                Console.WriteLine(lineData[2]);
+                Console.WriteLine(lineData[3]);
+                Console.WriteLine(lineData[4]);
+                Console.WriteLine(lineData[5]);
+                Console.WriteLine("");
+            }
+
         }
 
         private void EnableSignIn()
@@ -29,12 +47,79 @@ namespace CannaBro
 
                 usernameEntry.TextColor = Color.FromHex("85d5bc");
                 passwordEntry.TextColor = Color.FromHex("85d5bc");
+
             }
 
             // Enable sign in button if required fields are complete.
             if (!string.IsNullOrWhiteSpace(usernameEntry.Text) && !string.IsNullOrWhiteSpace(passwordEntry.Text))
             {
                 signInButton.IsEnabled = true;
+            }
+        }
+
+        private async void ForgotButton_ClickedAsync(object sender, EventArgs e)
+        {
+            var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
+            string userPassword = "";
+            bool foundUser = false;
+
+            // Check if username entry is filled and retrieve password.
+            if (!string.IsNullOrWhiteSpace(usernameEntry.Text))
+            {
+
+                // Loop through each file to check for user credentials.
+                foreach (var file in files)
+                {
+                    // Split each line into a string array.
+                    string[] lineData = File.ReadAllText(file).Split(',');
+
+                    // Check if username is valid
+                    if (usernameEntry.Text == lineData[4] || usernameEntry.Text == lineData[4])
+                    {
+                        // Retrieve password.
+                        userPassword = lineData[5];
+                        foundUser = true;
+
+                        break;
+                    }
+                }
+            }
+            // Ask user for email and attempt to retrieve password.
+            else
+            {
+                string input = await DisplayPromptAsync("Email", "Enter the email address that you used to create your account.");
+
+                // Look for email address if input is not empty.
+                if (!string.IsNullOrWhiteSpace(input))
+                {
+                    // Loop through each file to check for user credentials.
+                    foreach (var file in files)
+                    {
+                        // Split each line into a string array.
+                        string[] lineData = File.ReadAllText(file).Split(',');
+
+                        // Check if username is valid
+                        if (input == lineData[3])
+                        {
+                            // Retrieve password.
+                            userPassword = lineData[5];
+                            foundUser = true;
+
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if (foundUser == false)
+            {
+                // Display error.
+                await DisplayAlert("Error", "Password could not be retrieved. Double check the username or email used and try again.", "OK");
+            }
+            else
+            {
+                // Display hint.
+                await DisplayAlert("Hint", $"password: {userPassword}", "OK");
             }
         }
 
@@ -92,7 +177,7 @@ namespace CannaBro
                         passwordEntry.Focus();
                         signInButton.IsEnabled = false;
 
-                        await DisplayAlert("Error", "The password you entered is incorrect. Please try again.", "Word");
+                        await DisplayAlert("Error", "The password you entered is incorrect. Please try again.", "OK");
 
                         break;
                     }

@@ -2,25 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.CannaBro.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5893BD61-065A-4899-9853-FF8A35A4E49D" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CannaBro/SignInPage.xaml.cs">
     <Files>
-      <File FileName="CannaBro/Models/DataManager.cs" Line="7" Column="1" />
-      <File FileName="CannaBro/Models/ThemeData.cs" />
-      <File FileName="CannaBro/Models/StrainData.cs" />
-      <File FileName="CannaBro/Models/CurrentUserData.cs" />
-      <File FileName="CannaBro/App.xaml.cs" Line="25" Column="53" />
-      <File FileName="CannaBro/SignInPage.xaml" />
-      <File FileName="CannaBro/SignInPage.xaml.cs" Line="20" Column="63" />
-      <File FileName="CannaBro/SignUpPage.xaml" />
-      <File FileName="CannaBro/SignUpPage.xaml.cs" />
-      <File FileName="CannaBro/MainPage.xaml" Line="7" Column="38" />
-      <File FileName="CannaBro/MainPage.xaml.cs" Line="29" Column="64" />
-      <File FileName="CannaBro/HomePage.xaml" Line="23" Column="87" />
-      <File FileName="CannaBro/HomePage.xaml.cs" Line="20" Column="60" />
-      <File FileName="CannaBro/MapPage.xaml" />
-      <File FileName="CannaBro/MapPage.xaml.cs" />
-      <File FileName="CannaBro/FindPage.xaml" />
-      <File FileName="CannaBro/FindPage.xaml.cs" />
-      <File FileName="CannaBro/ProfilePage.xaml" Line="23" Column="102" />
-      <File FileName="CannaBro/ProfilePage.xaml.cs" Line="31" Column="44" />
+      <File FileName="CannaBro/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="CannaBro/SignUpPage.xaml.cs" Line="19" Column="1" />
+      <File FileName="CannaBro/SignInPage.xaml.cs" Line="117" Column="133" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,11 +12,8 @@
           <Node name="CannaBro" expanded="True">
             <Node name="CannaBro" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
               <Node name="FindPage.xaml" expanded="True" />
-              <Node name="HomePage.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MapPage.xaml" expanded="True" />
               <Node name="ProfilePage.xaml" expanded="True" />
               <Node name="SignInPage.xaml" expanded="True">
                 <Node name="SignInPage.xaml.cs" selected="True" />

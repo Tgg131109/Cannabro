@@ -2,7 +2,9 @@
 /Users/tobygamble/Desktop/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll
 /Users/tobygamble/Desktop/CannaBro/CannaBro/bin/Debug/netstandard2.0/ref/CannaBro.dll
 /Users/tobygamble/Desktop/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.pdb
+/Users/tobygamble/Desktop/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.csprojAssemblyReference.cache
 /Users/tobygamble/Desktop/CannaBro/CannaBro/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/tobygamble/Desktop/CannaBro/CannaBro/obj/Debug/netstandard2.0/FavoritesPage.xaml.g.cs
 /Users/tobygamble/Desktop/CannaBro/CannaBro/obj/Debug/netstandard2.0/FindPage.xaml.g.cs
 /Users/tobygamble/Desktop/CannaBro/CannaBro/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
 /Users/tobygamble/Desktop/CannaBro/CannaBro/obj/Debug/netstandard2.0/MainPage.xaml.g.cs

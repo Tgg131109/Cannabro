@@ -209,5 +209,7 @@
 	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
+	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll \
+	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
 	--reference=/Users/tobygamble/Desktop/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll \
 	'@/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/response-file.rsp' \

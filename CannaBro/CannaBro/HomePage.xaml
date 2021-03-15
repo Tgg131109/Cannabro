@@ -6,11 +6,6 @@
     Title="Welcome"
     Background="#121212">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="saved" IconImageSource="savedicon" Order="Primary" Priority="0" />
-        <ToolbarItem Text="recent" IconImageSource="recentsicon"/>
-    </ContentPage.ToolbarItems>
-
     <StackLayout Padding="20" VerticalOptions="StartAndExpand">
         <Label Padding="0,0,0,10" Text="Find Your Strain ____________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
         <Button x:Name="effectButton" Text="BY EFFECT" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#404040" BorderColor="#85d5bc" BorderWidth="2" CornerRadius="10" />
