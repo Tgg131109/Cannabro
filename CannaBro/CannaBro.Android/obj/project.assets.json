@@ -2473,11 +2473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tobygamble/Desktop/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
+      "projectUniqueName": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
       "projectName": "CannaBro.Android",
-      "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
+      "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
       "packagesPath": "/Users/tobygamble/.nuget/packages/",
-      "outputPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro.Android/obj/",
+      "outputPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2492,8 +2492,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj": {
-              "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj"
+            "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj": {
+              "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj"
             }
           }
         }

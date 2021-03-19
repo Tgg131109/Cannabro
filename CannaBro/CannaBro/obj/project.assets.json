@@ -911,11 +911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
+      "projectUniqueName": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj",
       "projectName": "CannaBro",
-      "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
+      "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj",
       "packagesPath": "/Users/tobygamble/.nuget/packages/",
-      "outputPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/obj/",
+      "outputPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tobygamble/.config/NuGet/NuGet.Config"

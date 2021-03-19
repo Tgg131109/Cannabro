@@ -4,19 +4,19 @@
 	--sgen-conc \
 	'/target-framework:Xamarin.iOS,Version=v1.0' \
 	--http-message-handler=NSUrlSessionHandler \
-	'\"--cache=/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache\"' \
-	--root-assembly=/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/CannaBro.iOS.exe \
+	'\"--cache=/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-cache\"' \
+	'\"--root-assembly=/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/CannaBro.iOS.exe\"' \
 	--sdkroot=/Applications/Xcode.app/Contents/Developer \
 	--targetver=8.0 \
-	'\"--sim=/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/CannaBro.iOS.app\"' \
+	'\"--sim=/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/CannaBro.iOS.app\"' \
 	--executable=CannaBro.iOS \
 	--nolink \
 	--sdk=14.4 \
 	--aot-options=-O=-float32 \
 	--abi=x86_64 \
-	'\"--symbollist=/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-symbols.list\"' \
+	'\"--symbollist=/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/mtouch-symbols.list\"' \
 	--dsym=no \
-	--reference=/Users/tobygamble/Desktop/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll \
+	'\"--reference=/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll\"' \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
@@ -211,5 +211,5 @@
 	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll \
 	--reference=/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
-	--reference=/Users/tobygamble/Desktop/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll \
-	'@/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/response-file.rsp' \
+	'\"--reference=/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll\"' \
+	'@/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/response-file.rsp' \

@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using Xamarin.Forms;
 using CannaBro.Models;
+using System.Linq;
 
 namespace CannaBro
 {
@@ -23,6 +24,9 @@ namespace CannaBro
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
             foreach (var file in files)
             {
+                Console.WriteLine(file);
+                //File.Delete(file);
+
                 // Split each line into a string array.
                 string[] lineData = File.ReadAllText(file).Split(',');
 
@@ -33,9 +37,18 @@ namespace CannaBro
                 Console.WriteLine(lineData[3]);
                 Console.WriteLine(lineData[4]);
                 Console.WriteLine(lineData[5]);
+                Console.WriteLine(lineData[6]);
                 Console.WriteLine("");
             }
 
+            var favFiles = Directory.EnumerateFiles(App.FolderPath, "*.UserFavorites.txt");
+            foreach (var file in favFiles)
+            {
+                //File.Delete(file);
+
+                Console.WriteLine(file);
+                Console.WriteLine(File.ReadAllText(file));
+            }
         }
 
         private void EnableSignIn()
@@ -99,10 +112,10 @@ namespace CannaBro
                         string[] lineData = File.ReadAllText(file).Split(',');
 
                         // Check if username is valid
-                        if (input == lineData[3])
+                        if (input == lineData[4])
                         {
                             // Retrieve password.
-                            userPassword = lineData[5];
+                            userPassword = lineData[6];
                             foundUser = true;
 
                             break;
@@ -127,6 +140,7 @@ namespace CannaBro
         {
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
             bool foundUser = false;
+            bool hasFavorites = false;
 
             // Loop through each file to check for user credentials.
             foreach (var file in files)
@@ -134,11 +148,13 @@ namespace CannaBro
                 // Split each line into a string array.
                 string[] lineData = File.ReadAllText(file).Split(',');
 
-                // Check if username is valid
-                if (usernameEntry.Text == lineData[3] || usernameEntry.Text == lineData[4])
+                // Action if username is valid
+                if (usernameEntry.Text == lineData[4] || usernameEntry.Text == lineData[5])
                 {
-                    // Check if password is valid.
-                    if (passwordEntry.Text == lineData[5])
+                    foundUser = true;
+
+                    // Action if password is valid.
+                    if (passwordEntry.Text == lineData[6])
                     {
                         // Clear username and password fields.
                         usernameEntry.Text = null;
@@ -147,29 +163,66 @@ namespace CannaBro
                         // Set current user.
                         CurrentUserData currentUser = new CurrentUserData
                         {
-                            //currentUser.FileName = ;
+                            FileName = file,
                             MemberSince = DateTime.Parse(lineData[0].ToString()),
-                            FirstName = lineData[1].ToString(),
-                            LastName = lineData[2].ToString(),
-                            Username = lineData[3].ToString(),
-                            Email = lineData[4].ToString(),
-                            Password = lineData[5].ToString(),
-                            Initials = $"{lineData[1].ToString().Substring(0, 1)}{lineData[2].ToString().Substring(0, 1)}"
+                            UID = lineData[1],
+                            FirstName = lineData[2].ToString(),
+                            LastName = lineData[3].ToString(),
+                            Username = lineData[4].ToString(),
+                            Email = lineData[5].ToString(),
+                            Password = lineData[6].ToString(),
+                            Initials = $"{lineData[2].ToString().Substring(0, 1)}{lineData[3].ToString().Substring(0, 1)}"
                         };
+
+                        CurrentUserData.userID = currentUser.UID;
+
+                        var favFiles = Directory.EnumerateFiles(App.FolderPath,$"*.{currentUser.UID}.txt");
+                        Console.WriteLine(favFiles);
+                        // Look for user's favorites list.
+                        if (favFiles.Any())
+                        {
+                            Console.WriteLine("User has favorites.");
+
+                            List<string> userFav = new List<string>();
+
+                            foreach (var fav in favFiles)
+                            {
+
+                                // Split each line into a string array.
+                                string[] favData = File.ReadAllText(fav).Split(',');
+
+                                Console.WriteLine(fav);
+                                Console.WriteLine(favData[0]);
+                                Console.WriteLine(favData[1]);
+
+                                userFav.Add($"{fav},{favData[1]}");
+                            }
+
+                            // Set current user object's favorites array.
+                            currentUser.Favorites = userFav.ToArray();
+
+                            hasFavorites = true;
+                        }
 
                         foundUser = true;
 
                         // Navigate to home page.
                         _ = Navigation.PushModalAsync(new MainPage());
 
+                        if (hasFavorites == true)
+                        {
+                            // Send user info to profile page.
+                            MessagingCenter.Send(currentUser, "Favorites");
+                        }
+
                         // Send user info to profile page.
                         MessagingCenter.Send(currentUser, "Current User");
 
                         break;
                     }
+                    // Action if password is incorrect.
                     else
                     {
-                        // Display error.
                         Console.WriteLine("Incorrect Password");
 
                         passwordEntry.TextColor = Color.IndianRed;
@@ -177,11 +230,13 @@ namespace CannaBro
                         passwordEntry.Focus();
                         signInButton.IsEnabled = false;
 
+                        // Display error.
                         await DisplayAlert("Error", "The password you entered is incorrect. Please try again.", "OK");
 
                         break;
                     }
                 }
+                // Action if username if not valid.
                 else
                 {
                     // Display error.
@@ -194,10 +249,13 @@ namespace CannaBro
                 }
             }
 
+            // Action if user is not found.
             if (foundUser == false)
             {
+                // Ask user if they would like to sign up.
                 bool answer = await DisplayAlert("Error", "There is no account with the provided username or email. Do you wish to sign up?", "Try Again", "Sign Up");
 
+                // Action if user wants to sign up.
                 if (answer == false)
                 {
                     // Clear username and password fields.

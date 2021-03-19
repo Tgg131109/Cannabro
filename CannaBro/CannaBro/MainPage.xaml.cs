@@ -13,15 +13,17 @@ namespace CannaBro
     public partial class MainPage : Xamarin.Forms.TabbedPage
     {
         DataManager dm = new DataManager();
+        bool hasfavorites = false;
+        string[] favorites;
 
         public MainPage()
         {
             InitializeComponent();
-            GetStrains();
+            _ = GetStrains();
 
             // Create tab views.
             Xamarin.Forms.NavigationPage homeNavigation = new Xamarin.Forms.NavigationPage(new HomePage());
-            homeNavigation.On<iOS>().SetPrefersLargeTitles(true);
+            //homeNavigation.On<iOS>().SetPrefersLargeTitles(true);
             homeNavigation.IconImageSource = "homeicon";
             homeNavigation.Title = "Home";
             homeNavigation.BarBackgroundColor = Color.FromHex("#121212");
@@ -34,39 +36,51 @@ namespace CannaBro
             findNavigation.BarTextColor = Color.FromHex("85d5bc");
 
             Xamarin.Forms.NavigationPage favoritesNavigation = new Xamarin.Forms.NavigationPage(new FavoritesPage());
-            //profileNavigation.On<iOS>().SetPrefersLargeTitles(true);
             favoritesNavigation.IconImageSource = "favoritesicon";
             favoritesNavigation.Title = "Favorites";
             favoritesNavigation.BarBackgroundColor = Color.FromHex("#121212");
             favoritesNavigation.BarTextColor = Color.FromHex("85d5bc");
 
-            //Xamarin.Forms.NavigationPage mapNavigation = new Xamarin.Forms.NavigationPage(new MapPage());
-            ////mapNavigation.On<iOS>().SetPrefersLargeTitles(true);
-            //mapNavigation.IconImageSource = "mapicon";
-            //mapNavigation.Title = "Search";
-            //mapNavigation.BarBackgroundColor = Color.FromHex("#121212");
-            //mapNavigation.BarTextColor = Color.FromHex("85d5bc");
-
             Xamarin.Forms.NavigationPage profileNavigation = new Xamarin.Forms.NavigationPage(new ProfilePage());
-            //profileNavigation.On<iOS>().SetPrefersLargeTitles(true);
             profileNavigation.IconImageSource = "profileicon";
             profileNavigation.Title = "Profile";
             profileNavigation.BarBackgroundColor = Color.FromHex("#121212");
             profileNavigation.BarTextColor = Color.FromHex("85d5bc");
-
 
             // Add views to tab bar.
             Children.Add(homeNavigation);
             Children.Add(findNavigation);
             Children.Add(favoritesNavigation);
             Children.Add(profileNavigation);
+
+            //Recieve current user information.
+            MessagingCenter.Subscribe<CurrentUserData>(this, "Favorites", (sender) =>
+            {
+                System.Console.WriteLine("Favorites Check");
+                System.Console.WriteLine(sender.Favorites.Count());
+
+                favorites = sender.Favorites;
+                hasfavorites = true;
+            });
         }
 
         private async Task GetStrains()
         {
-            await dm.GetStrainsAsync();
+            System.Console.WriteLine("Get Strains");
 
-            MessagingCenter.Send(dm.resultData, "Results");
+            await dm.GetNewsAsync();
+            MessagingCenter.Send(dm.articles, "News");
+
+            await dm.GetStrainsAsync();
+            MessagingCenter.Send(dm.filters, "Filters");
+            MessagingCenter.Send(DataManager.strains, "Strains");
+
+            if (hasfavorites == true)
+            {
+                System.Console.WriteLine("Set favorites.");
+                dm.SetFavorites(favorites);
+                MessagingCenter.Send(DataManager.favorites, "Favorites Set");
+            }
         }
     }
 }

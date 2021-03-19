@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CannaBro.StrainDetailPage"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.ModalPresentationStyle="FormSheet"
+    Title="Strain Info"
+    NavigationPage.IconColor="#85d5bc"
+    Background="#121212">
+
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem x:Name="favortiesButton" Text="Example Item" IconImageSource="favoritesicon" Order="Primary" Priority="0" />-->
+        <ToolbarItem x:Name="closeButton" IconImageSource="closeicon" Order="Primary" Priority="0" />
+    </ContentPage.ToolbarItems>
+
+    <!--<NavigationPage.TitleView>
+        <Label x:Name="headerLabel" Padding="0,0,0,10" Text="Description" TextColor="#85d5bc" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+    </NavigationPage.TitleView>-->
+
+    <StackLayout Padding="20">
+        <!--<Frame Margin="-20,-20,-20,0" HeightRequest="20" BackgroundColor="#121212" CornerRadius="0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button x:Name="favoriteButton" ImageSource="favoritesicon" HorizontalOptions="StartAndExpand" />
+                <Label x:Name="headeLabel" Padding="0,0,0,10" Text="Description" TextColor="#85d5bc" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="closeButton" ImageSource="" HorizontalOptions="EndAndExpand" Text="xmark.circle.fill" />
+            </StackLayout>
+        </Frame>-->
+        <Label x:Name="descriptionLabel" Padding="0,0,0,10" Text="Description ________________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label x:Name="descriptionInfo" Padding="0,0,0,10" TextColor="#85d5bc" HorizontalTextAlignment="Center" />
+        <Label x:Name="effectLabel" Padding="0,0,0,10" Text="Effects ___________________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label x:Name="effectInfo" Padding="0,0,0,10" TextColor="#85d5bc" HorizontalTextAlignment="Center" />
+        <Label x:Name="flavorLabel" Padding="0,0,0,10" Text="Flavors ___________________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label x:Name="flavorInfo" Padding="0,0,0,40" TextColor="#85d5bc" HorizontalTextAlignment="Center" />
+        <Button x:Name="favoritesButton" Text="ADD TO FAVORITES" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" ImageSource="favoritesicon" Background="#85d5bc" BorderWidth="2" CornerRadius="10" HeightRequest="60" />
+    </StackLayout>
+</ContentPage>

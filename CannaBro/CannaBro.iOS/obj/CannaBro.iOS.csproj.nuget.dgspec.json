@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj": {}
+    "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj": {}
   },
   "projects": {
-    "/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj": {
+    "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
+        "projectUniqueName": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
         "projectName": "CannaBro.iOS",
-        "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
+        "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
         "packagesPath": "/Users/tobygamble/.nuget/packages/",
-        "outputPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro.iOS/obj/",
+        "outputPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj": {
-                "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj"
+              "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj": {
+                "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj": {
+    "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
+        "projectUniqueName": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj",
         "projectName": "CannaBro",
-        "projectPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/CannaBro.csproj",
+        "projectPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/CannaBro.csproj",
         "packagesPath": "/Users/tobygamble/.nuget/packages/",
-        "outputPath": "/Users/tobygamble/Desktop/CannaBro/CannaBro/obj/",
+        "outputPath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tobygamble/.config/NuGet/NuGet.Config"

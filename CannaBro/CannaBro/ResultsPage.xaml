@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CannaBro.ResultsPage"
+    Title="Results"
+    NavigationPage.BackButtonTitle="Home"
+    BackgroundColor="#121212">
+
+    <StackLayout Padding="20" VerticalOptions="FillAndExpand">
+        <Grid> 
+            <Grid.ColumnDefinitions> 
+                <ColumnDefinition Width="*" /> 
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Label Text="Your Strains _______________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label x:Name="countLabel" Text="count" TextColor="WhiteSmoke" HorizontalOptions="End" />
+        </Grid> 
+
+        <ListView x:Name="strainList" SeparatorColor="#404040" BackgroundColor="#121212" RowHeight="56" SelectionMode="None" VerticalOptions="StartAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid VerticalOptions="Center" RowSpacing="0"> 
+                            <Grid.ColumnDefinitions> 
+                                <ColumnDefinition Width="*" /> 
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding Name}" FontSize="20" TextColor="#85d5bc" VerticalTextAlignment="End" />
+                            <Label Text="{Binding Rating}" FontSize="14" TextColor="WhiteSmoke" VerticalTextAlignment="Start" Grid.Row="1" />
+                        </Grid> 
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

@@ -146,6 +146,12 @@
     <ImageAsset Include="Assets.xcassets\favoritesicon.imageset\icons8-cannabis.png" />
     <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Asset 60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\expandicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\expandicon.imageset\icons8-expand_arrow-1.png" />
+    <ImageAsset Include="Assets.xcassets\favoritedicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\favoritedicon.imageset\icons8-cannabis-1.png" />
+    <ImageAsset Include="Assets.xcassets\closeicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\closeicon.imageset\icons8-xbox_x-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -175,5 +181,8 @@
   <ItemGroup>
     <Folder Include="Assets.xcassets\favoritesicon.imageset\" />
     <Folder Include="Assets.xcassets\cannabrologo.imageset\" />
+    <Folder Include="Assets.xcassets\expandicon.imageset\" />
+    <Folder Include="Assets.xcassets\favoritedicon.imageset\" />
+    <Folder Include="Assets.xcassets\closeicon.imageset\" />
   </ItemGroup>
 </Project>

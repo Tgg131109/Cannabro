@@ -8,7 +8,7 @@
     BackgroundColor="#121212">
 
     <StackLayout Padding="30,20" VerticalOptions="StartAndExpand">
-        <Frame Margin="0" Padding="2" BorderColor="#85d5bc" BackgroundColor="#85d5bc" CornerRadius="10">
+        <Frame Padding="2" BorderColor="#85d5bc" BackgroundColor="#85d5bc" CornerRadius="10">
             <Frame BackgroundColor="#404040" HasShadow="False" CornerRadius="10">
                 <Grid Margin="0,-30" RowSpacing="0">
                     <Grid.ColumnDefinitions>

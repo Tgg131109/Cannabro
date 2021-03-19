@@ -3,11 +3,40 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="CannaBro.FindPage"
-    Title="Find Products"
+    Title="Find Strains"
     BackgroundColor="#121212">
 
-    <NavigationPage.TitleView>
-        <SearchBar Placeholder="Find strains by name..." PlaceholderColor="WhiteSmoke" TextColor="#85d5bc" />
-    </NavigationPage.TitleView>
+    <StackLayout Padding="20" VerticalOptions="FillAndExpand">
+        <SearchBar x:Name="searchBar" Margin="-10,-20,-10,0" Placeholder="Find strains by name..." PlaceholderColor="WhiteSmoke" TextColor="#85d5bc" BackgroundColor="#121212" CancelButtonColor="#85d5bc" />
+            <Grid> 
+                <Grid.ColumnDefinitions> 
+                    <ColumnDefinition Width="*" /> 
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+                <Label Text="Strains ___________________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+                <Label x:Name="countLabel" Text="count" TextColor="WhiteSmoke" HorizontalOptions="End" />
+            </Grid> 
 
+        <ListView x:Name="strainList" SeparatorColor="#404040" BackgroundColor="#121212" RowHeight="56" SelectionMode="None" VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid VerticalOptions="Center" RowSpacing="0"> 
+                            <Grid.ColumnDefinitions> 
+                                <ColumnDefinition Width="*" /> 
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding Name}" FontSize="20" TextColor="#85d5bc" VerticalTextAlignment="End" />
+                            <Label Text="{Binding Rating}" FontSize="14" TextColor="WhiteSmoke" VerticalTextAlignment="Start" Grid.Row="1" />
+                            <Image Source="favoritedicon" IsVisible="{Binding Favorited}" Grid.RowSpan="2" HorizontalOptions="End" />
+                        </Grid> 
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>
