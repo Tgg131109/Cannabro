@@ -22,7 +22,7 @@ namespace CannaBro
             MainPage = new NavigationPage(new SignInPage())
             {
                 BarBackgroundColor = Color.FromHex("121212"),
-                BarTextColor = Color.FromHex("8CFF98")
+                BarTextColor = Color.FromHex("85d5bc")
             };
         }
 

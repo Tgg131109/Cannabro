@@ -1,25 +1,111 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.HomePage" Title="Welcome" BackgroundColor="#121212">
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="CannaBro.HomePage"
+    Title="CannaBro"
+    Background="#121212">
+
     <ContentPage.ToolbarItems>
-    <ToolbarItem Text="saved" IconImageSource="savedicon" Order="Primary" Priority="0" />
-    <ToolbarItem Text="recent" IconImageSource="recentsicon"/>
+        <ToolbarItem IconImageSource="recentsicon" Clicked="RecentsButton_Clicked" />
     </ContentPage.ToolbarItems>
 
-    <StackLayout Padding="20" VerticalOptions="StartAndExpand">
-        <Label Padding="0,0,0,10" Text="Find Your Strain ____________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
-        <Button x:Name="effectButton" Text="BY EFFECT" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#404040" BorderColor="#8CFF98" BorderWidth="2" CornerRadius="10" />
-        <Button x:Name="medicalButton" Text="BY MEDICINAL USE" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#404040" BorderColor="#8CFF98" BorderWidth="2" CornerRadius="10" />
-        <Button x:Name="flavorButton" Text="BY FLAVOR" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#404040" BorderColor="#8CFF98" BorderWidth="2" CornerRadius="10" />
-        <Label Padding="0,10" Text="API Pull___________________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
-        <ListView x:Name="resultsList" BackgroundColor="#121212">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding StrainName}" Detail="" TextColor="#8CFF98"/>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+    <ScrollView>
+        <StackLayout Padding="20" VerticalOptions="FillAndExpand">
+            <Label Padding="0,0,0,10" Text="Find Your Strain ____________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
 
-        <!--<Frame Margin="0,20" Background="#404040" BorderColor="#8CFF98" />-->
-    </StackLayout>
+            <Frame Padding="2" BorderColor="#85d5bc" BackgroundColor="#85d5bc" CornerRadius="10">
+                <Frame HasShadow="False" BackgroundColor="#404040" CornerRadius="10">
+                    <xct:Expander x:Name="effectExpander" Margin="-10">
+                        <xct:Expander.Header>
+                            <Grid>
+                                <Label Text="EFFECT" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" VerticalTextAlignment="Center"/>
+                                <Frame x:Name="effectFrame" Margin="80,0,0,0" Padding="0" HasShadow="False" BackgroundColor="#85d5bc" CornerRadius="12" WidthRequest="24" HorizontalOptions="Start" IsVisible="False">
+                                    <Label x:Name="effectCount" Text="0" TextColor="WhiteSmoke" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" />
+                                </Frame>
+                                <Image x:Name="effectExpandIcon" Source="expandicon" HorizontalOptions="End" VerticalOptions="Center" />
+                            </Grid>
+                        </xct:Expander.Header>
 
+                        <ListView x:Name="effectsList" SeparatorColor="#121212" BackgroundColor="#404040" HeightRequest="200" SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid Margin="0,0,0,10"> 
+                                            <Grid.ColumnDefinitions> 
+                                                <ColumnDefinition Width="*" /> 
+                                            </Grid.ColumnDefinitions> 
+                                            <Label Text="{Binding Name}" VerticalTextAlignment="Center" TextColor="#85d5bc" HorizontalOptions="Center" />
+                                            <Switch Scale=".75" ThumbColor="WhiteSmoke" OnColor="#85d5bc" HorizontalOptions="End" IsToggled="{Binding Selected}" Toggled="Toggle_OnToggled" /> 
+                                        </Grid> 
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </xct:Expander>
+                </Frame>
+            </Frame>
+
+            <Frame Padding="2" BorderColor="#85d5bc" BackgroundColor="#85d5bc" CornerRadius="10">
+                <Frame HasShadow="False" BackgroundColor="#404040" CornerRadius="10">
+                    <xct:Expander x:Name="flavorExpander" Margin="-10">
+                        <xct:Expander.Header>
+                            <Grid>
+                                <Label Text="FLAVOR" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" VerticalTextAlignment="Center"/>
+                                <Frame x:Name="flavorFrame" Margin="86,0,0,0" Padding="0" HasShadow="False" BackgroundColor="#85d5bc" CornerRadius="12" WidthRequest="24" HorizontalOptions="Start" IsVisible="False">
+                                    <Label x:Name="flavorCount" Text="0" TextColor="WhiteSmoke" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" />
+                                </Frame>
+                                <Image x:Name="flavorExpandIcon" Source="expandicon" HorizontalOptions="End" VerticalOptions="Center" />
+                            </Grid>
+                        </xct:Expander.Header>
+
+                        <ListView x:Name="flavorsList" SeparatorColor="#121212" BackgroundColor="#404040" HeightRequest="200" SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid Margin="0,0,0,10"> 
+                                            <Grid.ColumnDefinitions> 
+                                                <ColumnDefinition Width="*" /> 
+                                            </Grid.ColumnDefinitions> 
+                                            <Label Text="{Binding Name}" VerticalTextAlignment="Center"  TextColor="#85d5bc" HorizontalOptions="Center" />
+                                            <Switch Scale=".75" ThumbColor="WhiteSmoke" OnColor="#85d5bc" HorizontalOptions="End" IsToggled="{Binding Selected}" Toggled="Toggle_OnToggled" /> 
+                                        </Grid> 
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </xct:Expander>
+                </Frame>
+            </Frame>
+
+            <Button x:Name="findButton" Text="FIND STRAINS" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" CornerRadius="10" HeightRequest="50" IsEnabled="False" />
+
+            <Label Padding="0,10" Text="Cannabis News_____________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+            <CarouselView x:Name="newsCarousel" Margin="-20,0" PeekAreaInsets="60" HeightRequest="360" >
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" ItemSpacing="20" SnapPointsAlignment="Center" SnapPointsType="MandatorySingle" />                                  
+                </CarouselView.ItemsLayout>
+
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="2.5" HasShadow="True" BackgroundColor="#85d5bc" BorderColor="#85d5bc" CornerRadius="10">
+                            <Frame Padding="0" HasShadow="False" BackgroundColor="#404040" CornerRadius="10" IsClippedToBounds="True">
+                                <StackLayout>
+                                <Image Source="{Binding Image}" VerticalOptions="Start" Aspect="AspectFill" HeightRequest="200" />
+                                <Label Margin="10,0" Text="{Binding Title}" HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="#85d5bc" />
+                                <Label Margin="10,0,10,-6" Text="{Binding Date}"  TextColor="#121212" FontSize="14" VerticalOptions="EndAndExpand"/>
+                                <Label Margin="10,0,10,10" Text="{Binding Source}"  TextColor="#121212" FontSize="14"/>
+                                </StackLayout>
+                            </Frame>
+                        <Frame.GestureRecognizers>
+                           <TapGestureRecognizer Tapped="ViewArticle" />
+                        </Frame.GestureRecognizers>
+                        </Frame>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView x:Name="indicatorView" IndicatorColor="#404040" SelectedIndicatorColor="#85d5bc" HorizontalOptions="Center" Padding="0,10" />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

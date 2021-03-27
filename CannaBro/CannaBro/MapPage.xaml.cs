@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 
 namespace CannaBro
 {
@@ -10,6 +10,11 @@ namespace CannaBro
         public MapPage()
         {
             InitializeComponent();
+
+            Map map = new Map();
+            Content = map;
+
+            map.IsShowingUser = true;
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qzh0HzvSrrZAB1sS54vdxoJQY8JsAlq/6bzQYEWL9qFULz598nkF4+zUKwqSvuhFd5ncV3KUXepF5svQaqSuZg==",
+  "dgSpecHash": "xqBjU9ZKRjaOJq7Dw9yCqabB+Di8pM2qOIvMYmYemMROq2wNQ5p9Q42KV3kcYHOguDPTZJz804g02cakHgyONw==",
   "success": true,
-  "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
+  "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
   "expectedPackageFiles": [
     "/Users/tobygamble/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
@@ -50,11 +50,17 @@
     "/Users/tobygamble/.nuget/packages/xamarin.androidx.versionedparcelable/1.1.1.6/xamarin.androidx.versionedparcelable.1.1.1.6.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.androidx.viewpager/1.0.0.6/xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.androidx.viewpager2/1.0.0.8/xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.build.download/0.10.0/xamarin.build.download.0.10.0.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.communitytoolkit/1.0.3/xamarin.communitytoolkit.1.0.3.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/xamarin.forms.maps.5.0.0.2012.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.google.android.material/1.2.1.1/xamarin.google.android.material.1.2.1.1.nupkg.sha512",
-    "/Users/tobygamble/.nuget/packages/xamarin.google.guava.listenablefuture/1.0.0.2/xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "/Users/tobygamble/.nuget/packages/xamarin.google.guava.listenablefuture/1.0.0.2/xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.googleplayservices.base/117.1.0/xamarin.googleplayservices.base.117.1.0.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.googleplayservices.basement/117.1.0/xamarin.googleplayservices.basement.117.1.0.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.googleplayservices.maps/117.0.0/xamarin.googleplayservices.maps.117.0.0.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.googleplayservices.tasks/117.0.0/xamarin.googleplayservices.tasks.117.0.0.nupkg.sha512"
   ],
   "logs": []
 }

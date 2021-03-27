@@ -1,20 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.SignInPage" BackgroundColor="#121212">
-    <StackLayout Padding="30,20">
-        <Entry x:Name="usernameEntry" Placeholder="Email or Username" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CannaBro.SignInPage"
+    BackgroundColor="#121212">
+
+        <StackLayout Padding="30,20">
+        <Image Source="cannabrologo"/>
+        <Entry x:Name="usernameEntry" Placeholder="Username" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
         <Label x:Name="usernameErrorLabel" Text="Username or Email not found." TextColor="IndianRed" IsVisible="False"/>
         <Entry x:Name="passwordEntry" Placeholder="Password" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc" IsPassword="True"/>
         <Label x:Name="passwordErrorLabel" Text="Incorrect password." TextColor="IndianRed" IsVisible="False" />
-        <Button x:Name="signInButton" Margin="0,20,0,0"  Text="SIGN IN" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" CornerRadius="10" HeightRequest="60" IsEnabled="False" />
+        <Button x:Name="signInButton" Margin="0,20,0,0"  Text="SIGN IN" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20" Background="#85d5bc" CornerRadius="10" HeightRequest="50" IsEnabled="False" />
         <Button x:Name="forgotButton" Text="Forgot Username or Password?" TextColor="#85d5bc" />
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" IsVisible="False" >
             <Line X2="160" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
             <Label Text="or" TextColor="Gray" />
             <Line X2="160" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
         </StackLayout>
-        <Label Text="CONTINUE WITH" FontSize="20" FontAttributes="Bold" TextColor="Gray" HorizontalOptions="Center" Padding="0,20" />
+        <Label Text="CONTINUE WITH" FontSize="20" FontAttributes="Bold" TextColor="Gray" HorizontalOptions="Center" Padding="0,20" IsVisible="False" />
 
-        <Grid HorizontalOptions="CenterAndExpand" ColumnSpacing="20">
+        <Grid HorizontalOptions="CenterAndExpand" ColumnSpacing="20" IsVisible="False">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="60" />
                 <ColumnDefinition Width="60" />
@@ -33,9 +39,9 @@
 
         <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Padding="0,20" >
             <Line X2="80" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
-            <Label Text="Don't have an account?" TextColor="Gray" />
+            <Label Text="Don't have an account?" TextColor="Gray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
             <Line X2="80" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
         </StackLayout>
-        <Button x:Name="signUpButton" Margin="0,0,0,20" VerticalOptions="End" Text="SIGN UP" TextColor="#85d5bc" FontAttributes="Bold" FontSize="20" BorderColor="#85d5bc" BorderWidth="3" CornerRadius="10" HeightRequest="60" />
+        <Button x:Name="signUpButton" Margin="0,0,0,80" VerticalOptions="End" Text="SIGN UP" TextColor="#85d5bc" FontAttributes="Bold" FontSize="20" BorderColor="#85d5bc" BorderWidth="3" CornerRadius="10" HeightRequest="50" />
     </StackLayout>
 </ContentPage>

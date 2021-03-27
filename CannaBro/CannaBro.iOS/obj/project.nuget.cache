@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "geKQSpk8dMRzPY0TK4cXuMEDyfXB7CRJyTKYcMuRGObj4GzkSr0Og7R/l7OlQZ9GVftqnukus+vKnnpYFUqzDA==",
+  "dgSpecHash": "40q66fqxBm+O1la1itZLvG6A8qqEx444NXDrA2WJcDBuC2NVGb8LhS1RiU+1LU28KAsR5NOX5W1L1YpO5IXSKQ==",
   "success": true,
-  "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
+  "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/CannaBro.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/tobygamble/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.communitytoolkit/1.0.3/xamarin.communitytoolkit.1.0.3.nupkg.sha512",
     "/Users/tobygamble/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
-    "/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/tobygamble/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/tobygamble/.nuget/packages/xamarin.forms.maps/5.0.0.2012/xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

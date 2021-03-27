@@ -1,6 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:xct="http://xamarin.com/schemas/2020/toolkit" x:Class="CannaBro.SignUpPage" BackgroundColor="#121212" Title="Sign Up" NavigationPage.BackButtonTitle="Sign In">
-    <StackLayout>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="CannaBro.SignUpPage"
+    Title="Sign Up"
+    BackgroundColor="#121212">
+
+        <StackLayout>
         <xct:Expander x:Name="signUpExpander">
             <StackLayout Padding="30,20">
                 <Entry x:Name="firstnameEntry" Placeholder="First Name" VerticalTextAlignment="End" HeightRequest="60" BackgroundColor="Transparent" TextColor="#85d5bc"/>
@@ -29,4 +36,5 @@
             </StackLayout>
         </xct:Expander>
     </StackLayout>
+
 </ContentPage>

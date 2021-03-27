@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="CannaBro.ResultsPage"
+    Title="Results"
+    NavigationPage.BackButtonTitle="Home"
+    BackgroundColor="#121212">
+
+    <StackLayout Padding="20,20,20,0" VerticalOptions="FillAndExpand">
+        <Grid> 
+            <Grid.ColumnDefinitions> 
+                <ColumnDefinition Width="*" /> 
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Label Text="Your Strains _______________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label x:Name="countLabel" Text="" TextColor="WhiteSmoke" HorizontalOptions="End" />
+        </Grid> 
+
+        <ListView x:Name="strainList" SeparatorColor="#404040" BackgroundColor="#121212" RowHeight="56" SelectionMode="None" VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid VerticalOptions="Center" RowSpacing="0" ColumnSpacing="16"> 
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" /> 
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <xct:AvatarView x:Name="avatarView" Text="{Binding RaceInitial}" TextColor="{Binding RaceColor}" FontSize="22" FontAttributes="Bold" BorderColor="{Binding RaceColor}" Color="#121212" CornerRadius="4" Source="{Binding AvatarSource}" VerticalOptions="CenterAndExpand" Grid.RowSpan="2" />
+                            <Label Text="{Binding Name}" FontSize="20" TextColor="#85d5bc" VerticalTextAlignment="End" Grid.Column="1" />
+                            <Grid Grid.Column="1" Grid.Row="1" ColumnSpacing="0" VerticalOptions="Start"> 
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="14" />
+                                    <ColumnDefinition Width="14" />
+                                    <ColumnDefinition Width="14" />
+                                    <ColumnDefinition Width="14" />
+                                    <ColumnDefinition Width="14" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Image Source="starempty" VerticalOptions="Start"  />
+                                <Image Source="starempty" VerticalOptions="Start" Grid.Column="1" />
+                                <Image Source="starempty" VerticalOptions="Start" Grid.Column="2" />
+                                <Image Source="starempty" VerticalOptions="Start" Grid.Column="3"/>
+                                <Image Source="starempty" VerticalOptions="Start" Grid.Column="4" />
+                                <Image Source="{Binding Star_1}" VerticalOptions="Start"  />
+                                <Image Source="{Binding Star_2}" VerticalOptions="Start" Grid.Column="1" />
+                                <Image Source="{Binding Star_3}" VerticalOptions="Start" Grid.Column="2" />
+                                <Image Source="{Binding Star_4}" VerticalOptions="Start" Grid.Column="3"/>
+                                <Image Source="{Binding Star_5}" VerticalOptions="Start" Grid.Column="4" />
+                                <Label Margin="4,0" Text="{Binding Rating}" FontSize="14" TextColor="WhiteSmoke" Grid.Column="5" VerticalTextAlignment="Start" />
+                            </Grid>
+                            <Image Source="unfavoriteicon" Grid.Column="1" Grid.RowSpan="2" HorizontalOptions="End">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="EditFavorite" />
+                            </Image.GestureRecognizers>
+                            </Image>
+                            <Image Source="favoritedicon" IsVisible="{Binding Favorited}" Grid.Column="1" Grid.RowSpan="2" HorizontalOptions="End">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="EditFavorite" />
+                            </Image.GestureRecognizers>
+                            </Image>
+                        </Grid> 
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

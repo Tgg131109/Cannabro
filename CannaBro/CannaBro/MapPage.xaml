@@ -1,5 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.MapPage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CannaBro.MapPage"
+    Title="Search Nearby"
+    NavigationPage.HasNavigationBar="True">
+
+    <NavigationPage.TitleView>
+        <SearchBar Placeholder="Search nearby..." PlaceholderColor="WhiteSmoke" TextColor="#85d5bc" CancelButtonColor="#85d5bc" />
+    </NavigationPage.TitleView>
 </ContentPage>

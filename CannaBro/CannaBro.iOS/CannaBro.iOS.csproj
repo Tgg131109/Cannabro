@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{67A63CE0-CFE6-4A28-AA5C-853AF9DD8766}</ProjectGuid>
+    <ProjectGuid>{17693011-448F-49DD-858A-BB5A7EF48623}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -61,6 +61,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -77,16 +78,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
@@ -113,29 +108,60 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\applelogo.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\applelogo.imageset\icons8-apple_logo.png" />
-    <ImageAsset Include="Assets.xcassets\savedicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\savedicon.imageset\icons8-heart_plus.png" />
-    <ImageAsset Include="Assets.xcassets\recentsicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\recentsicon.imageset\icons8-time_machine.png" />
-    <ImageAsset Include="Assets.xcassets\applelogo.imageset\icons8-apple_logo-1.png" />
-    <ImageAsset Include="Assets.xcassets\homeicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\homeicon.imageset\icons8-home_page.png" />
-    <ImageAsset Include="Assets.xcassets\profileicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\profileicon.imageset\icons8-male_user.png" />
-    <ImageAsset Include="Assets.xcassets\facebooklogo.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\facebooklogo.imageset\icons8-facebook_f-1.png" />
-    <ImageAsset Include="Assets.xcassets\googlelogo.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\googlelogo.imageset\icons8-google.png" />
-    <ImageAsset Include="Assets.xcassets\twitterlogo.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\twitterlogo.imageset\icons8-twitter.png" />
-    <ImageAsset Include="Assets.xcassets\homeicon.imageset\icons8-home_page-1.png" />
-    <ImageAsset Include="Assets.xcassets\profileicon.imageset\icons8-male_user-1.png" />
-    <ImageAsset Include="Assets.xcassets\mapicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\mapicon.imageset\icons8-map.png" />
-    <ImageAsset Include="Assets.xcassets\findicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\findicon.imageset\icons8-search.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\notificationicon.imageset\icons8-alarm.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\notificationicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\signouticon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\signouticon.imageset\icons8-export.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\mapicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\mapicon.imageset\icons8-map.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\googlelogo.imageset\icons8-google.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\googlelogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\recentsicon.imageset\icons8-time_machine-1.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\recentsicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\homeicon.imageset\icons8-home_page-1.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\homeicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\homeicon.imageset\icons8-home_page.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\twitterlogo.imageset\icons8-twitter.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\twitterlogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\settingsicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\settingsicon.imageset\icons8-settings.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\facebooklogo.imageset\icons8-facebook_f-1.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\facebooklogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\profileicon.imageset\icons8-male_user-1.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\profileicon.imageset\icons8-male_user.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\profileicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\findicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\findicon.imageset\icons8-search.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\applelogo.imageset\icons8-apple_logo-1.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\applelogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\applelogo.imageset\icons8-apple_logo.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\savedicon.imageset\icons8-heart_plus-1.png" />
+    <ImageAsset Include="Assets.xcassets\Assets.xcassets\savedicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\favoritesicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\favoritesicon.imageset\icons8-cannabis.png" />
+    <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\expandicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\expandicon.imageset\icons8-expand_arrow-1.png" />
+    <ImageAsset Include="Assets.xcassets\favoritedicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\closeicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\closeicon.imageset\icons8-xbox_x-1.png" />
+    <ImageAsset Include="Assets.xcassets\favoritedicon.imageset\icons8-cannabis.png" />
+    <ImageAsset Include="Assets.xcassets\starfull.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\star.5.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\starempty.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\star.5.imageset\icons8-star_half.png" />
+    <ImageAsset Include="Assets.xcassets\starfull.imageset\icons8-star-1.png" />
+    <ImageAsset Include="Assets.xcassets\starempty.imageset\icons8-star-1.png" />
+    <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Asset 61%403x.png" />
+    <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Asset 61%402x.png" />
+    <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Asset 61.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-3.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-4.png" />
+    <ImageAsset Include="Assets.xcassets\unfavoriteicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\unfavoriteicon.imageset\icons8-cannabis-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -158,20 +184,19 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\CannaBro\CannaBro.csproj">
-      <Project>{21118907-B790-4EF7-8E86-2F362B82164E}</Project>
+      <Project>{6DC81D79-FB67-401E-AA3F-2EAE18997EED}</Project>
       <Name>CannaBro</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets.xcassets\applelogo.imageset\" />
-    <Folder Include="Assets.xcassets\savedicon.imageset\" />
-    <Folder Include="Assets.xcassets\recentsicon.imageset\" />
-    <Folder Include="Assets.xcassets\homeicon.imageset\" />
-    <Folder Include="Assets.xcassets\profileicon.imageset\" />
-    <Folder Include="Assets.xcassets\facebooklogo.imageset\" />
-    <Folder Include="Assets.xcassets\googlelogo.imageset\" />
-    <Folder Include="Assets.xcassets\twitterlogo.imageset\" />
-    <Folder Include="Assets.xcassets\mapicon.imageset\" />
-    <Folder Include="Assets.xcassets\findicon.imageset\" />
+    <Folder Include="Assets.xcassets\favoritesicon.imageset\" />
+    <Folder Include="Assets.xcassets\cannabrologo.imageset\" />
+    <Folder Include="Assets.xcassets\expandicon.imageset\" />
+    <Folder Include="Assets.xcassets\favoritedicon.imageset\" />
+    <Folder Include="Assets.xcassets\closeicon.imageset\" />
+    <Folder Include="Assets.xcassets\starfull.imageset\" />
+    <Folder Include="Assets.xcassets\star.5.imageset\" />
+    <Folder Include="Assets.xcassets\starempty.imageset\" />
+    <Folder Include="Assets.xcassets\unfavoriteicon.imageset\" />
   </ItemGroup>
 </Project>

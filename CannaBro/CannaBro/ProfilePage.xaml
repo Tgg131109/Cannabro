@@ -1,5 +1,43 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CannaBro.ProfilePage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="CannaBro.ProfilePage"
+    Title="Profile"
+    BackgroundColor="#121212">
+
+    <StackLayout Padding="30,20" VerticalOptions="StartAndExpand">
+        <Frame Padding="2" BorderColor="#85d5bc" BackgroundColor="#85d5bc" CornerRadius="10">
+            <Frame BackgroundColor="#404040" HasShadow="False" CornerRadius="10">
+                <Grid Margin="0,-30" RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <xct:AvatarView x:Name="avatarView" Text="AB" FontAttributes="Bold" Color="#121212" Source="{Binding AvatarSource}" Size="98" TextColor="WhiteSmoke" VerticalOptions="CenterAndExpand" Grid.RowSpan="3" />
+                    <Label x:Name="userName" Margin="10,0,0,-20" Text="User Name" TextColor="#85d5bc" FontSize="24" FontAttributes="Bold" VerticalTextAlignment="End" Grid.Column="1" />
+                    <Label x:Name="userEmail" Margin="10,30,0,0" Text="User Email" TextColor="#85d5bc" FontSize="16" VerticalTextAlignment="Center" Grid.Column="1" Grid.Row="1"/>
+                    <Label x:Name="userDate" Margin="10,0,0,30" Text="Join Date" TextColor="#85d5bc" FontSize="12" VerticalTextAlignment="Center" Grid.Column="1" Grid.Row="2"/>
+                </Grid>
+            </Frame>
+        </Frame>
+
+        <Frame Margin="0,20" Padding="2" BorderColor="#85d5bc" BackgroundColor="#85d5bc" CornerRadius="10">
+            <Frame BackgroundColor="#404040" HasShadow="False" CornerRadius="10">
+                <StackLayout Margin="0,-10">
+                    <Button x:Name="recentsButton" ImageSource="recentsicon" Text="Recently Viewed" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
+                    <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
+                    <!--<Button x:Name="notifButton" ImageSource="notificationicon" Text="Notification Settings" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
+                    <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="accountButton" ImageSource="settingsicon" Text="Account Settings" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
+                    <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>-->
+                    <Button x:Name="signOutButton" ImageSource="signouticon" Text="Sign Out" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
+                </StackLayout>
+            </Frame>
+        </Frame>
+    </StackLayout>
 </ContentPage>
