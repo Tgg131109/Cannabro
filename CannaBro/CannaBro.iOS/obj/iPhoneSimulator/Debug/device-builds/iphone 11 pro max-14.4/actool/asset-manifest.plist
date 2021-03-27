@@ -34,6 +34,7 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
 				<string>./facebooklogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./facebooklogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./facebooklogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -42,11 +43,83 @@
 				<string>./facebooklogo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./facebooklogo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./facebooklogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+=======
+				<string>./settingsicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settingsicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settingsicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settingsicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settingsicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settingsicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settingsicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settingsicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "settingsicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./profileicon.imageset/(null)[2d][icons8-male_user.png]</string>
+				<string>./profileicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "profileicon" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./closeicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			</array>
 			<key>catalog</key>
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
 			<key>message</key>
+<<<<<<< HEAD
 			<string>The image set "facebooklogo" has 8 unassigned children.</string>
+=======
+			<string>The image set "closeicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./findicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "findicon" has 8 unassigned children.</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -63,7 +136,11 @@
 				<string>./star.5.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "star.5" has 8 unassigned children.</string>
 			<key>type</key>
@@ -72,20 +149,38 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./applelogo.imageset/(null)[2d][icons8-apple_logo.png]</string>
-				<string>./applelogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./applelogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./applelogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./applelogo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./applelogo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./applelogo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./applelogo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./applelogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The image set "applelogo" has 9 unassigned children.</string>
+			<string>The image set "expandicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./favoritesicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "favoritesicon" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -102,7 +197,11 @@
 				<string>./closeicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "closeicon" has 8 unassigned children.</string>
 			<key>type</key>
@@ -111,6 +210,7 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
 				<string>./starempty.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./starempty.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./starempty.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -124,6 +224,22 @@
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "starempty" has 8 unassigned children.</string>
+=======
+				<string>./applelogo.imageset/(null)[2d][icons8-apple_logo.png]</string>
+				<string>./applelogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "applelogo" has 9 unassigned children.</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -140,7 +256,11 @@
 				<string>./favoritedicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "favoritedicon" has 8 unassigned children.</string>
 			<key>type</key>
@@ -159,7 +279,11 @@
 				<string>./twitterlogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "twitterlogo" has 8 unassigned children.</string>
 			<key>type</key>
@@ -197,7 +321,11 @@
 				<string>./mapicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "mapicon" has 8 unassigned children.</string>
 			<key>type</key>
@@ -206,6 +334,7 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
 				<string>./favoritesicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./favoritesicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./favoritesicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -219,6 +348,40 @@
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "favoritesicon" has 8 unassigned children.</string>
+=======
+				<string>./recentsicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "recentsicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./favoritedicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "favoritedicon" has 8 unassigned children.</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -235,7 +398,11 @@
 				<string>./notificationicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "notificationicon" has 8 unassigned children.</string>
 			<key>type</key>
@@ -244,20 +411,40 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./profileicon.imageset/(null)[2d][icons8-male_user.png]</string>
-				<string>./profileicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./profileicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./profileicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./profileicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./profileicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./profileicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./profileicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./profileicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+<<<<<<< HEAD
+=======
+				<string>./googlelogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./googlelogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./googlelogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./googlelogo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./googlelogo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./googlelogo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./googlelogo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./googlelogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The image set "profileicon" has 9 unassigned children.</string>
+			<string>The image set "googlelogo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./signouticon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "signouticon" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -274,9 +461,203 @@
 				<string>./cannabrologo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "cannabrologo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./expandicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./expandicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "expandicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./closeicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./closeicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "closeicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./favoritesicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritesicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "favoritesicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./cannabrologo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "cannabrologo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./favoritedicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./favoritedicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "favoritedicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./signouticon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./signouticon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "signouticon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./findicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./findicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "findicon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
+				<string>./profileicon.imageset/(null)[2d][icons8-male_user.png]</string>
+				<string>./profileicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./profileicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+<<<<<<< HEAD
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
+			<key>message</key>
+			<string>The image set "profileicon" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+<<<<<<< HEAD
+				<string>./cannabrologo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cannabrologo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "cannabrologo" has 8 unassigned children.</string>
+=======
+				<string>./homeicon.imageset/(null)[2d][icons8-home_page.png]</string>
+				<string>./homeicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./homeicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./homeicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./homeicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./homeicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./homeicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./homeicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./homeicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "homeicon" has 9 unassigned children.</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -293,7 +674,11 @@
 				<string>./savedicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "savedicon" has 8 unassigned children.</string>
 			<key>type</key>
@@ -302,6 +687,7 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
 				<string>./starfull.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./starfull.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./starfull.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -315,12 +701,28 @@
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "starfull" has 8 unassigned children.</string>
+=======
+				<string>./mapicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mapicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./mapicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mapicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./mapicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mapicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./mapicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mapicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "mapicon" has 8 unassigned children.</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
 				<string>./unfavoriteicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./unfavoriteicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./unfavoriteicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -334,12 +736,50 @@
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "unfavoriteicon" has 8 unassigned children.</string>
+=======
+				<string>./recentsicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./recentsicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "recentsicon" has 8 unassigned children.</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
+=======
+				<string>./applelogo.imageset/(null)[2d][icons8-apple_logo.png]</string>
+				<string>./applelogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./applelogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "applelogo" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 				<string>./settingsicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./settingsicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./settingsicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -350,7 +790,11 @@
 				<string>./settingsicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "settingsicon" has 8 unassigned children.</string>
 			<key>type</key>
@@ -359,20 +803,23 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./homeicon.imageset/(null)[2d][icons8-home_page.png]</string>
-				<string>./homeicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./homeicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./homeicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./homeicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./homeicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./homeicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./homeicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./homeicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./facebooklogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
-			<string>The image set "homeicon" has 9 unassigned children.</string>
+			<string>The image set "facebooklogo" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -389,7 +836,11 @@
 				<string>./googlelogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
+<<<<<<< HEAD
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
 			<string>The image set "googlelogo" has 8 unassigned children.</string>
 			<key>type</key>
@@ -398,6 +849,7 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
 				<string>./expandicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./expandicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./expandicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -733,14 +1185,28 @@
 			</array>
 			<key>catalog</key>
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+=======
+				<string>./twitterlogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./twitterlogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./twitterlogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./twitterlogo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./twitterlogo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./twitterlogo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./twitterlogo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./twitterlogo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>message</key>
-			<string>The image set "profileicon" has 9 unassigned children.</string>
+			<string>The image set "twitterlogo" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
 		<dict>
 			<key>affected-items</key>
 			<array>
+<<<<<<< HEAD
 				<string>./facebooklogo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./facebooklogo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./facebooklogo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -870,6 +1336,21 @@
 			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "homeicon" has 9 unassigned children.</string>
+=======
+				<string>./notificationicon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./notificationicon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./notificationicon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./notificationicon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./notificationicon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./notificationicon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./notificationicon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./notificationicon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-14.4/actool/cloned-assets/Assets.xcassets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "notificationicon" has 8 unassigned children.</string>
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

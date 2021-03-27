@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "xqBjU9ZKRjaOJq7Dw9yCqabB+Di8pM2qOIvMYmYemMROq2wNQ5p9Q42KV3kcYHOguDPTZJz804g02cakHgyONw==",
+=======
+  "dgSpecHash": "4VIpHc288zV2Bb1rgufPiqq0k1xK+smGIVABe00m83H3/JIt8Tb7MwiTahBCqZUKxwj10q8UJce39N/d5z6w0A==",
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
   "success": true,
   "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro.Android/CannaBro.Android.csproj",
   "expectedPackageFiles": [

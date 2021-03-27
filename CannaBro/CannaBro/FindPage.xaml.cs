@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 using System.Linq;
 using CannaBro.Models;
 using Xamarin.Forms;
@@ -18,6 +21,7 @@ namespace CannaBro
 
             searchBar.TextChanged += SearchBar_TextChanged;
             strainList.ItemTapped += StrainList_ItemTapped;
+<<<<<<< HEAD
             indicaButton.Clicked += (s, e) => { Filter(indicaButton, "indica"); };
             sativaButton.Clicked += (s, e) => Filter(sativaButton, "sativa");
             hybridButton.Clicked += (s, e) => Filter(hybridButton, "hybrid");
@@ -28,10 +32,21 @@ namespace CannaBro
             {
                 Console.WriteLine("Find page recieved strain data");
                 strainList.ItemsSource = sender.OrderBy(x => X).ToList();
+=======
+
+            // Recieve messages to update list data.
+            MessagingCenter.Subscribe<List<StrainData>>(this, "Strains", (sender) =>
+            {
+
+                Console.WriteLine("Find page recieved strain data");
+                strainList.ItemsSource = sender.OrderBy(x => X).ToList();
+
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                 countLabel.Text = $"{sender.Count} results";
             });
         }
 
+<<<<<<< HEAD
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             // Action if no search criteria is entered.
@@ -85,6 +100,23 @@ namespace CannaBro
             _ = Navigation.PushAsync(new ArticlePage());
 
             MessagingCenter.Send(article, "Article");
+=======
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // Reset list if no search criteria is entered.
+            if (string.IsNullOrWhiteSpace(searchBar.Text))
+            {
+                strainList.ItemsSource = DataManager.strains.OrderBy(x => X).ToList();
+
+                countLabel.Text = $"{DataManager.strains.Count} results";
+            }
+            else
+            {
+                //SearchBar search = (SearchBar)sender;
+                strainList.ItemsSource = Search(searchBar.Text).OrderBy(x => X).ToList();
+            }
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         }
 
         private void StrainList_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -105,6 +137,7 @@ namespace CannaBro
             MessagingCenter.Send(item, "Selected Strain");
         }
 
+<<<<<<< HEAD
         private void EditFavorite(object sender, EventArgs e)
         {
             StrainData.EditFavorite(sender, e);
@@ -270,6 +303,25 @@ namespace CannaBro
         {
             // Navigate to recently viewed page.
             _ = Navigation.PushAsync(new RecentsPage());
+=======
+        private List<StrainData> Search(string criteria)
+        {
+            List<StrainData> results = new List<StrainData>();
+
+            // Search for the criteria in the strains list.
+            foreach(StrainData sd in DataManager.strains)
+            {
+                if (sd.Name.Contains(criteria))
+                {
+                    // Add matches to results list.
+                    results.Add(sd);
+                }
+            }
+
+            countLabel.Text = $"{results.Count} results";
+
+            return results;
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         }
     }
 }

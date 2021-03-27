@@ -18,12 +18,18 @@ namespace CannaBro
             // Recieve messages to update list data.
             MessagingCenter.Subscribe<List<StrainData>>(this, "Favorites Set", (sender) =>
             {
+<<<<<<< HEAD
                 strainList.ItemsSource = null;
                 strainList.ItemsSource = sender.OrderBy(d => d.DateViewed);
                 countLabel.Text = $"{sender.Count} results";
 
                 noItemsGrid.IsVisible = false;
                 strainList.IsVisible = true;
+=======
+                strainList.ItemsSource = sender.OrderBy(x => X).ToList();
+
+                countLabel.Text = $"{sender.Count} results";
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             });
         }
 
@@ -41,6 +47,7 @@ namespace CannaBro
             // Send strain info.
             MessagingCenter.Send(item, "Selected Strain");
         }
+<<<<<<< HEAD
 
         private void RecentsButton_Clicked(object sender, EventArgs e)
         {
@@ -52,5 +59,7 @@ namespace CannaBro
         {
             StrainData.EditFavorite(sender, e);
         }
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
     }
 }

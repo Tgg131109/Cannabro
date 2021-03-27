@@ -1,14 +1,19 @@
 ﻿using System;
 using System.ComponentModel;
+<<<<<<< HEAD
 using Xamarin.Forms;
 using System.Runtime.CompilerServices;
 using System.IO;
+=======
+using System.Runtime.CompilerServices;
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 
 namespace CannaBro.Models
 {
     public class StrainData : INotifyPropertyChanged
     {
         private bool favorited { get; set; }
+<<<<<<< HEAD
         //private bool recent { get; set; }
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -36,6 +41,18 @@ namespace CannaBro.Models
         //    get { return !Favorited; }
         //}
 
+=======
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public string Filename { get; set; }
+        public int Index { get; set; }
+        public string Name { get; set; }
+        public string Race { get; set; }
+        public double Rating { get; set; }
+        public string Effects { get; set; }
+        public string Flavors { get; set; }
+        public string Description { get; set; }
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         public bool Favorited
         {
             get { return favorited; }
@@ -44,6 +61,7 @@ namespace CannaBro.Models
                 favorited = value;
                 OnPropertyChanged(nameof(Favorited));
             }
+<<<<<<< HEAD
         }
 
         //public bool Recent
@@ -55,11 +73,16 @@ namespace CannaBro.Models
         //        OnPropertyChanged(nameof(Recent));
         //    }
         //}
+=======
+
+        }
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+<<<<<<< HEAD
 
         public static void EditFavorite(object sender, EventArgs e)
         {
@@ -100,5 +123,7 @@ namespace CannaBro.Models
             // Update favorites page.
             MessagingCenter.Send(DataManager.favorites, "Favorites Set");
         }
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
     }
 }

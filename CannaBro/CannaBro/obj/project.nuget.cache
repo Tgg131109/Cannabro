@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "dzh4Iyum+RDm/DzHmPYAedjVzAKTmx3zl3ULZckSpTlaGC54RUzKAuZZdCcE0byRhBxiF12cpTqG4uTfcHlNdA==",
+=======
+  "dgSpecHash": "iqpzRZF9unfwCahlT0lcpjObuZS7r6/etPKPgb7i+NE6Rn76GubimOJ2MMvo5tkDxf0jadlPQf6LftYeXE2awg==",
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
   "success": true,
   "projectFilePath": "/Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro/CannaBro.csproj",
   "expectedPackageFiles": [

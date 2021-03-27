@@ -2,15 +2,21 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+<<<<<<< HEAD
     xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
     x:Class="CannaBro.FavoritesPage"
     Title="Favorites"
     BackgroundColor="#121212">
 
+<<<<<<< HEAD
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="recentsicon" Clicked="RecentsButton_Clicked" />
     </ContentPage.ToolbarItems>
 
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
     <StackLayout Padding="20,20,20,0" VerticalOptions="FillAndExpand">
         <Grid> 
             <Grid.ColumnDefinitions> 
@@ -19,6 +25,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="40" />
             </Grid.RowDefinitions>
+<<<<<<< HEAD
             <Label Text="Strains ___________________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
             <Label x:Name="countLabel" Text="" TextColor="WhiteSmoke" HorizontalOptions="End" />
         </Grid> 
@@ -53,11 +60,24 @@
                         <Grid VerticalOptions="Center" RowSpacing="0" ColumnSpacing="16"> 
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="40" />
+=======
+            <Label Text="Your Strains _______________" TextColor="#404040" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label x:Name="countLabel" Text="count" TextColor="WhiteSmoke" HorizontalOptions="End" />
+        </Grid> 
+
+        <ListView x:Name="strainList" VerticalOptions="StartAndExpand" SeparatorColor="#404040" BackgroundColor="#121212" RowHeight="56" SelectionMode="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid VerticalOptions="Center" RowSpacing="0"> 
+                            <Grid.ColumnDefinitions> 
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                                 <ColumnDefinition Width="*" /> 
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*" />
                             </Grid.RowDefinitions>
+<<<<<<< HEAD
                             <xct:AvatarView x:Name="avatarView" Text="{Binding RaceInitial}" TextColor="{Binding RaceColor}" FontSize="22" FontAttributes="Bold" BorderColor="{Binding RaceColor}" Color="#121212" CornerRadius="4" Source="{Binding AvatarSource}" VerticalOptions="CenterAndExpand" Grid.RowSpan="2" />
                             <Label Text="{Binding Name}" FontSize="20" TextColor="#85d5bc" VerticalTextAlignment="End" Grid.Column="1" />
                             <Grid Grid.Column="1" Grid.Row="1" ColumnSpacing="0" VerticalOptions="Start"> 
@@ -93,6 +113,10 @@
                                 <TapGestureRecognizer Tapped="EditFavorite" />
                             </Image.GestureRecognizers>
                             </Image>
+=======
+                            <Label Text="{Binding Name}" FontSize="20" TextColor="#85d5bc" VerticalTextAlignment="End" />
+                            <Label Text="{Binding Rating}" FontSize="14" TextColor="WhiteSmoke" VerticalTextAlignment="Start" Grid.Row="1" />
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                         </Grid> 
                     </ViewCell>
                 </DataTemplate>

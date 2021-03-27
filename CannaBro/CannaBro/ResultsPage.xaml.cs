@@ -41,10 +41,13 @@ namespace CannaBro
             // Send strain info.
             MessagingCenter.Send(item, "Selected Strain");
         }
+<<<<<<< HEAD
 
         private void EditFavorite(object sender, EventArgs e)
         {
             StrainData.EditFavorite(sender, e);
         }
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
     }
 }

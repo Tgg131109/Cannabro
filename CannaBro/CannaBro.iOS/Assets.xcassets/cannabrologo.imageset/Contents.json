@@ -4,17 +4,27 @@
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "Asset 61.png",
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
       "scale": "1x",
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "Asset 61@2x.png",
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
       "scale": "2x",
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "Asset 61@3x.png",
+=======
+      "filename": "Asset 60@3x.png",
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
       "scale": "3x",
       "idiom": "universal"
     },

@@ -20,16 +20,22 @@ namespace CannaBro {
         private global::Xamarin.Forms.Label countLabel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+<<<<<<< HEAD
         private global::Xamarin.Forms.Grid noItemsGrid;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         private global::Xamarin.Forms.ListView strainList;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FavoritesPage));
             countLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "countLabel");
+<<<<<<< HEAD
             noItemsGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "noItemsGrid");
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             strainList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "strainList");
         }
     }

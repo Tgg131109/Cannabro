@@ -13,7 +13,10 @@ namespace CannaBro
             InitializeComponent();
 
             signOutButton.Clicked += SignOutButton_Clicked;
+<<<<<<< HEAD
             recentsButton.Clicked += RecentsButton_Clicked;
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 
             // Recieve current user information.
             MessagingCenter.Subscribe<CurrentUserData>(this, "Current User", (sender) =>
@@ -24,6 +27,7 @@ namespace CannaBro
                 userName.Text = $"{sender.FirstName} {sender.LastName}";
                 userEmail.Text = sender.Email;
                 userDate.Text = $"Member since {sender.MemberSince:MMM yyyy}";
+<<<<<<< HEAD
 
                 MessagingCenter.Unsubscribe<CurrentUserData>(this, "Current User");
             });
@@ -50,6 +54,15 @@ namespace CannaBro
                     fd.Selected = false;
                 }
             }
+=======
+            });
+        }
+
+        private void SignOutButton_Clicked(object sender, EventArgs e)
+        {
+            // Log out and navigate to sign in page.
+            Application.Current.MainPage.Navigation.PopModalAsync();
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         }
     }
 }

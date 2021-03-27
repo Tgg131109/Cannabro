@@ -12,7 +12,11 @@
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "icons8-cannabis.png",
+=======
+      "filename": "icons8-cannabis-1.png",
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
       "scale": "3x",
       "idiom": "universal"
     },

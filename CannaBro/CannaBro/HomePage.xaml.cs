@@ -31,28 +31,44 @@ namespace CannaBro
 
             // Recieve messages to update list data.
             MessagingCenter.Subscribe<List<FilterData>>(this, "Filters", (sender) =>
+<<<<<<< HEAD
             {
                 Console.WriteLine("Home page recieved filter data");
                 effectsList.ItemsSource = sender.Where(i => i.Type == "Effect").OrderBy(x => X).ToList();
                 flavorsList.ItemsSource = sender.Where(i => i.Type == "Flavor").OrderBy(x => X).ToList();
 
                 MessagingCenter.Unsubscribe<FilterData>(this, "Filters");
+=======
+            {              
+                Console.WriteLine("Home page recieved filter data");
+                effectsList.ItemsSource = sender.Where(i => i.Type == "Effect").OrderBy(x => X).ToList();
+                flavorsList.ItemsSource = sender.Where(i => i.Type == "Flavor").OrderBy(x => X).ToList();
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             });
 
             MessagingCenter.Subscribe<List<NewsData>>(this, "News", (sender) =>
             {
                 Console.WriteLine("Home page recieved news data");
                 newsCarousel.ItemsSource = sender.ToList();
+<<<<<<< HEAD
 
                 MessagingCenter.Unsubscribe<NewsData>(this, "News");
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             });
 
             MessagingCenter.Subscribe<List<StrainData>>(this, "Strains", (sender) =>
             {
+<<<<<<< HEAD
                 Console.WriteLine("Home page recieved strain data");
                 strains = sender.OrderBy(x => X).ToList();
 
                 MessagingCenter.Unsubscribe<StrainData>(this, "Strains");
+=======
+
+                Console.WriteLine("Home page recieved strain data");
+                strains = sender.OrderBy(x => X).ToList();
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             });
         }
 
@@ -66,7 +82,10 @@ namespace CannaBro
 
         private void Toggle_OnToggled(object sender, ItemTappedEventArgs e)
         {
+<<<<<<< HEAD
             Console.WriteLine("Toggled");
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             var toggle = (Switch)sender;
             var dataContext = ((Grid)toggle.Parent).BindingContext;
             FilterData dataItem = (FilterData)dataContext;
@@ -159,12 +178,15 @@ namespace CannaBro
             flavorExpander.IsExpanded = false;
         }
 
+<<<<<<< HEAD
         private void RecentsButton_Clicked(object sender, EventArgs e)
         {
             // Navigate to recently viewed page.
             _ = Navigation.PushAsync(new RecentsPage());
         }
 
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         private void RotateIcon(Expander expander, Image image)
         {
             if (expander.State == ExpandState.Expanding)
@@ -175,6 +197,7 @@ namespace CannaBro
             {
                 image.RotateXTo(0);
             }
+<<<<<<< HEAD
         }
 
         private void ViewArticle(object sender, EventArgs e)
@@ -188,6 +211,8 @@ namespace CannaBro
             _ = Navigation.PushAsync(new ArticlePage());
 
             MessagingCenter.Send(article, "Article");
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         }
     }
 }

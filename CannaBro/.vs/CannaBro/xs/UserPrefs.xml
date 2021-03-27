@@ -1,16 +1,45 @@
 ﻿<Properties StartupConfiguration="{17693011-448F-49DD-858A-BB5A7EF48623}|Default">
   <MonoDevelop.Ide.ItemProperties.CannaBro.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5893BD61-065A-4899-9853-FF8A35A4E49D" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="CannaBro/HomePage.xaml">
     <Files>
       <File FileName="CannaBro/HomePage.xaml" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="CannaBro/Models/FilterData.cs">
+    <Files>
+      <File FileName="CannaBro/Models/DataManager.cs" Line="94" Column="58" />
+      <File FileName="CannaBro/Models/FilterData.cs" Line="7" Column="53" />
+      <File FileName="CannaBro/Models/StrainData.cs" Line="1" Column="1" />
+      <File FileName="CannaBro/HomePage.xaml" Line="36" Column="171" />
+      <File FileName="CannaBro/HomePage.xaml.cs" Line="153" Column="47" />
+      <File FileName="CannaBro/FindPage.xaml" Line="8" Column="1" />
+      <File FileName="CannaBro/FindPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="CannaBro/FavoritesPage.xaml" Line="9" Column="36" />
+      <File FileName="CannaBro/FavoritesPage.xaml.cs" Line="24" Column="1" />
+      <File FileName="CannaBro/ResultsPage.xaml" Line="10" Column="62" />
+      <File FileName="CannaBro/ResultsPage.xaml.cs" Line="23" Column="61" />
+      <File FileName="CannaBro/StrainDetailPage.xaml.cs" Line="1" Column="1" />
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CannaBro" expanded="True">
             <Node name="CannaBro" expanded="True">
+<<<<<<< HEAD
               <Node name="Models" expanded="True" />
               <Node name="HomePage.xaml" selected="True" />
+=======
+              <Node name="Models" expanded="True">
+                <Node name="FilterData.cs" selected="True" />
+              </Node>
+              <Node name="FavoritesPage.xaml" expanded="True" />
+              <Node name="FindPage.xaml" expanded="True" />
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="ResultsPage.xaml" expanded="True" />
+              <Node name="SignInPage.xaml" expanded="True" />
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
               <Node name="StrainDetailPage.xaml" expanded="True" />
             </Node>
           </Node>
@@ -18,7 +47,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CannaBro.Android PreferredExecutionTarget="Android.Pixel_3a_API_30_x86" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

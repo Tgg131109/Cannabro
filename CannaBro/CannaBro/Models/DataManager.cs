@@ -13,8 +13,12 @@ namespace CannaBro.Models
     {
         public static List<StrainData> strains = new List<StrainData>();
         public static List<StrainData> favorites = new List<StrainData>();
+<<<<<<< HEAD
         public static List<StrainData> recents = new List<StrainData>();
         public static List<FilterData> filters = new List<FilterData>();
+=======
+        public List<FilterData> filters = new List<FilterData>();
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
         public List<string> temp = new List<string>();
         public List<NewsData> articles = new List<NewsData>();
         public List<StrainData> filteredList = new List<StrainData>();
@@ -26,8 +30,11 @@ namespace CannaBro.Models
             // Clear lists to prevent duplicates on sign in.
             strains.Clear();
             favorites.Clear();
+<<<<<<< HEAD
             recents.Clear();
             filters.Clear();
+=======
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 
             string strainAPI = "https://medizen-ds.herokuapp.com/strains";
             string apiString = await apiConnection.DownloadStringTaskAsync(strainAPI);
@@ -42,6 +49,7 @@ namespace CannaBro.Models
                 StrainData sd = new StrainData()
                 {
                     Index = int.Parse(result["index"].ToString()),
+<<<<<<< HEAD
                     Name = result["Strain"].ToString().Replace("-", " "),
                     Race = result["Type"].ToString(),
                     Rating = double.Parse(result["Rating"].ToString()),
@@ -50,6 +58,11 @@ namespace CannaBro.Models
                     Star_3 = "starempty",
                     Star_4 = "starempty",
                     Star_5 = "starempty",
+=======
+                    Name = result["Strain"].ToString(),
+                    Race = result["Type"].ToString(),
+                    Rating = double.Parse(result["Rating"].ToString()),
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                     Effects = result["Effects"].ToString(),
                     Flavors = result["Flavor"].ToString(),
                     Description = result["Description"].ToString()
@@ -149,8 +162,12 @@ namespace CannaBro.Models
                         FilterData ed = new FilterData()
                         {
                             Type = "Effect",
+<<<<<<< HEAD
                             Name = e,
                             Selected = false
+=======
+                            Name = e
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                         };
 
                         // Add filterdata object to list
@@ -174,8 +191,12 @@ namespace CannaBro.Models
                         FilterData fd = new FilterData()
                         {
                             Type = "Flavor",
+<<<<<<< HEAD
                             Name = f,
                             Selected = false
+=======
+                            Name = f
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                         };
 
                         // Add filterdata object to list.
@@ -244,6 +265,7 @@ namespace CannaBro.Models
                 StrainData strain = strains.Where(i => i.Index == int.Parse(inputInfo[1])).FirstOrDefault();
                 Console.WriteLine(strain.Name);
 
+<<<<<<< HEAD
                 strain.FavFilename = inputInfo[0];
                 strain.Favorited = true;
                 favorites.Add(strain);
@@ -263,6 +285,11 @@ namespace CannaBro.Models
                 strain.RecFilename = inputInfo[0];
                 strain.DateViewed = DateTime.Parse(inputInfo[1]);
                 recents.Add(strain);
+=======
+                strain.Filename = inputInfo[0];
+                strain.Favorited = true;
+                favorites.Add(strain);
+>>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             }
         }
     }
