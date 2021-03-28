@@ -140,7 +140,6 @@
     <ImageAsset Include="Assets.xcassets\favoritesicon.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\favoritesicon.imageset\icons8-cannabis.png" />
     <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Contents.json" />
-<<<<<<< HEAD
     <ImageAsset Include="Assets.xcassets\expandicon.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\expandicon.imageset\icons8-expand_arrow-1.png" />
     <ImageAsset Include="Assets.xcassets\favoritedicon.imageset\Contents.json" />
@@ -162,16 +161,7 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-3.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-4.png" />
     <ImageAsset Include="Assets.xcassets\unfavoriteicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\unfavoriteicon.imageset\icons8-cannabis-1.png" />
-=======
-    <ImageAsset Include="Assets.xcassets\cannabrologo.imageset\Asset 60%403x.png" />
-    <ImageAsset Include="Assets.xcassets\expandicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\expandicon.imageset\icons8-expand_arrow-1.png" />
-    <ImageAsset Include="Assets.xcassets\favoritedicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\favoritedicon.imageset\icons8-cannabis-1.png" />
-    <ImageAsset Include="Assets.xcassets\closeicon.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\closeicon.imageset\icons8-xbox_x-1.png" />
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
+    <ImageAsset Include="Assets.xcassets\unfavoriteicon.imageset\icons8-cannabis.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -204,12 +194,9 @@
     <Folder Include="Assets.xcassets\expandicon.imageset\" />
     <Folder Include="Assets.xcassets\favoritedicon.imageset\" />
     <Folder Include="Assets.xcassets\closeicon.imageset\" />
-<<<<<<< HEAD
     <Folder Include="Assets.xcassets\starfull.imageset\" />
     <Folder Include="Assets.xcassets\star.5.imageset\" />
     <Folder Include="Assets.xcassets\starempty.imageset\" />
     <Folder Include="Assets.xcassets\unfavoriteicon.imageset\" />
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
   </ItemGroup>
 </Project>

@@ -2,20 +2,15 @@
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/ref/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.pdb
+/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.csprojAssemblyReference.cache
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/App.xaml.g.cs
-<<<<<<< HEAD
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/ArticlePage.xaml.g.cs
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/FavoritesPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/FindPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/ProfilePage.xaml.g.cs
-<<<<<<< HEAD
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/RecentsPage.xaml.g.cs
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/ResultsPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/SignInPage.xaml.g.cs
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
@@ -27,7 +22,6 @@
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/ref/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.pdb
-<<<<<<< HEAD
 /Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.deps.json
 /Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro/bin/Debug/netstandard2.0/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro/bin/Debug/netstandard2.0/ref/CannaBro.dll
@@ -53,6 +47,3 @@
 /Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro/obj/Debug/netstandard2.0/ref/CannaBro.dll
 /Users/tobygamble/Documents/School/PROJ PORT 2/Week 3/Gamble_Toby_Alpha/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.pdb
-=======
-/Users/tobygamble/Documents/School/PROJ PORT 2/CannaBro/CannaBro/CannaBro/obj/Debug/netstandard2.0/CannaBro.csprojAssemblyReference.cache
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1

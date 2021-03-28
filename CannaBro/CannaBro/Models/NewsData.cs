@@ -8,6 +8,7 @@ namespace CannaBro.Models
         public string Author { get; set; }
         public string Source { get; set; }
         public string Date { get; set; }
+        public DateTime PubDate { get; set; }
         public string URL { get; set; }
     }
 }

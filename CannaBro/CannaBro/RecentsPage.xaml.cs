@@ -26,8 +26,10 @@ namespace CannaBro
             // Recieve messages to update list data.
             MessagingCenter.Subscribe<List<StrainData>>(this, "Recents Set", (sender) =>
             {
+                sender.Sort((x, y) => y.DateViewed.CompareTo(x.DateViewed));
+
                 strainList.ItemsSource = null;
-                strainList.ItemsSource = sender.OrderBy(d => d.DateViewed);
+                strainList.ItemsSource = sender;
                 countLabel.Text = $"{sender.Count} results";
 
                 if (strainList.IsVisible == false)

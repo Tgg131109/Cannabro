@@ -14,13 +14,9 @@ namespace CannaBro
     {
         DataManager dm = new DataManager();
         bool hasfavorites = false;
-<<<<<<< HEAD
         bool hasrecents = false;
         string[] favorites;
         string[] recents;
-=======
-        string[] favorites;
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 
         public MainPage()
         {
@@ -46,15 +42,12 @@ namespace CannaBro
             favoritesNavigation.Title = "Favorites";
             favoritesNavigation.BarBackgroundColor = Color.FromHex("#121212");
             favoritesNavigation.BarTextColor = Color.FromHex("85d5bc");
-<<<<<<< HEAD
 
             //Xamarin.Forms.NavigationPage mapNavigation = new Xamarin.Forms.NavigationPage(new MapPage());
             //mapNavigation.IconImageSource = "mapicon";
             //mapNavigation.Title = "Map";
             //mapNavigation.BarBackgroundColor = Color.FromHex("#121212");
             //mapNavigation.BarTextColor = Color.FromHex("85d5bc");
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 
             Xamarin.Forms.NavigationPage profileNavigation = new Xamarin.Forms.NavigationPage(new ProfilePage());
             profileNavigation.IconImageSource = "profileicon";
@@ -66,10 +59,7 @@ namespace CannaBro
             Children.Add(homeNavigation);
             Children.Add(findNavigation);
             Children.Add(favoritesNavigation);
-<<<<<<< HEAD
             //Children.Add(mapNavigation);
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             Children.Add(profileNavigation);
 
             //Recieve current user information.
@@ -80,7 +70,6 @@ namespace CannaBro
 
                 favorites = sender.Favorites;
                 hasfavorites = true;
-<<<<<<< HEAD
 
                 MessagingCenter.Unsubscribe<CurrentUserData>(this, "Favorites");
             });
@@ -95,8 +84,6 @@ namespace CannaBro
                 hasrecents = true;
 
                 MessagingCenter.Unsubscribe<CurrentUserData>(this, "Recents");
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             });
         }
 
@@ -108,7 +95,6 @@ namespace CannaBro
             MessagingCenter.Send(dm.articles, "News");
 
             await dm.GetStrainsAsync();
-<<<<<<< HEAD
             MessagingCenter.Send(DataManager.filters, "Filters");
             MessagingCenter.Send(DataManager.strains, "Strains");
 
@@ -124,16 +110,6 @@ namespace CannaBro
                 System.Console.WriteLine("Set recents.");
                 dm.SetRecents(recents);
                 MessagingCenter.Send(DataManager.recents, "Recents Set");
-=======
-            MessagingCenter.Send(dm.filters, "Filters");
-            MessagingCenter.Send(DataManager.strains, "Strains");
-
-            if (hasfavorites == true)
-            {
-                System.Console.WriteLine("Set favorites.");
-                dm.SetFavorites(favorites);
-                MessagingCenter.Send(DataManager.favorites, "Favorites Set");
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
             }
         }
     }

@@ -29,23 +29,12 @@
         <Frame Margin="0,20" Padding="2" BorderColor="#85d5bc" BackgroundColor="#85d5bc" CornerRadius="10">
             <Frame BackgroundColor="#404040" HasShadow="False" CornerRadius="10">
                 <StackLayout Margin="0,-10">
-<<<<<<< HEAD
                     <Button x:Name="recentsButton" ImageSource="recentsicon" Text="Recently Viewed" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
                     <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
                     <!--<Button x:Name="notifButton" ImageSource="notificationicon" Text="Notification Settings" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
                     <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
                     <Button x:Name="accountButton" ImageSource="settingsicon" Text="Account Settings" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
                     <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>-->
-=======
-                    <Button x:Name="favoritesButton" ImageSource="savedicon" Text="Favorites" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
-                    <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
-                    <Button x:Name="recentsButton" ImageSource="recentsicon" Text="Recently Viewed" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
-                    <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
-                    <Button x:Name="notifButton" ImageSource="notificationicon" Text="Notification Settings" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
-                    <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
-                    <Button x:Name="accountButton" ImageSource="settingsicon" Text="Account Settings" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
-                    <Line X2="300" Stroke="#121212" StrokeThickness="1" HorizontalOptions="CenterAndExpand"/>
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                     <Button x:Name="signOutButton" ImageSource="signouticon" Text="Sign Out" TextColor="WhiteSmoke" FontSize="20" HeightRequest="50" />
                 </StackLayout>
             </Frame>

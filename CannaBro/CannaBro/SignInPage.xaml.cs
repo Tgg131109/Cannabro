@@ -87,17 +87,10 @@ namespace CannaBro
                     string[] lineData = File.ReadAllText(file).Split(',');
 
                     // Check if username is valid
-<<<<<<< HEAD
                     if (usernameEntry.Text == lineData[4] || usernameEntry.Text == lineData[5])
                     {
                         // Retrieve password.
                         userPassword = lineData[6];
-=======
-                    if (usernameEntry.Text == lineData[4] || usernameEntry.Text == lineData[4])
-                    {
-                        // Retrieve password.
-                        userPassword = lineData[5];
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                         foundUser = true;
 
                         break;
@@ -148,10 +141,7 @@ namespace CannaBro
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
             bool foundUser = false;
             bool hasFavorites = false;
-<<<<<<< HEAD
             bool hasRecents = false;
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
 
             // Loop through each file to check for user credentials.
             foreach (var file in files)
@@ -187,15 +177,9 @@ namespace CannaBro
 
                         CurrentUserData.userID = currentUser.UID;
 
-<<<<<<< HEAD
                         // Look for user's favorites list.
                         var favFiles = Directory.EnumerateFiles(App.FolderPath,$"*.{currentUser.UID}.txt");
 
-=======
-                        var favFiles = Directory.EnumerateFiles(App.FolderPath,$"*.{currentUser.UID}.txt");
-                        Console.WriteLine(favFiles);
-                        // Look for user's favorites list.
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                         if (favFiles.Any())
                         {
                             Console.WriteLine("User has favorites.");
@@ -221,7 +205,6 @@ namespace CannaBro
                             hasFavorites = true;
                         }
 
-<<<<<<< HEAD
                         // Look for user's recents list.
                         var recentFiles = Directory.EnumerateFiles(App.FolderPath, $"*.{currentUser.UID}_recent.txt");
 
@@ -250,8 +233,6 @@ namespace CannaBro
                             hasRecents = true;
                         }
 
-=======
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                         foundUser = true;
 
                         // Navigate to home page.
@@ -259,7 +240,6 @@ namespace CannaBro
 
                         if (hasFavorites == true)
                         {
-<<<<<<< HEAD
                             // Send user info to main page.
                             MessagingCenter.Send(currentUser, "Favorites");
                         }
@@ -269,12 +249,6 @@ namespace CannaBro
                             // Send user info to main page.
                             MessagingCenter.Send(currentUser, "Recents");
                         }
-=======
-                            // Send user info to profile page.
-                            MessagingCenter.Send(currentUser, "Favorites");
-                        }
-
->>>>>>> 72e45dd82a36ec527d599372af22cba2e47786e1
                         // Send user info to profile page.
                         MessagingCenter.Send(currentUser, "Current User");
 
