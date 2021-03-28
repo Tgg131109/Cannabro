@@ -75,6 +75,7 @@ namespace CannaBro
             var files = Directory.EnumerateFiles(App.FolderPath, "*.CannaBroUsers.txt");
             string userPassword = "";
             bool foundUser = false;
+            string input = "";
 
             // Check if username entry is filled and retrieve password.
             if (!string.IsNullOrWhiteSpace(usernameEntry.Text))
@@ -100,7 +101,7 @@ namespace CannaBro
             // Ask user for email and attempt to retrieve password.
             else
             {
-                string input = await DisplayPromptAsync("Email", "Enter the email address that you used to create your account.");
+                input = await DisplayPromptAsync("Email", "Enter the email address that you used to create your account.");
 
                 // Look for email address if input is not empty.
                 if (!string.IsNullOrWhiteSpace(input))
@@ -124,15 +125,19 @@ namespace CannaBro
                 }
             }
 
-            if (foundUser == false)
+            // Action if user does not cancel.
+            if (!string.IsNullOrWhiteSpace(input))
             {
-                // Display error.
-                await DisplayAlert("Error", "Password could not be retrieved. Double check the username or email used and try again.", "OK");
-            }
-            else
-            {
-                // Display hint.
-                await DisplayAlert("Hint", $"password: {userPassword}", "OK");
+                if (foundUser == false)
+                {
+                    // Display error.
+                    await DisplayAlert("Error", "Password could not be retrieved. Double check the username or email used and try again.", "OK");
+                }
+                else
+                {
+                    // Display hint.
+                    await DisplayAlert("Hint", $"password: {userPassword}", "OK");
+                }
             }
         }
 

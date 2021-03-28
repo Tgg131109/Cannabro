@@ -38,9 +38,9 @@
         </Grid>-->
 
         <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Padding="0,20" >
-            <Line X2="80" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
+            <Line X2="120" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
             <Label Text="No account?" TextColor="Gray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-            <Line X2="80" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+            <Line X2="120" Stroke="Gray" StrokeThickness="2" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
         </StackLayout>
         <Button x:Name="signUpButton" Margin="0,0,0,80" VerticalOptions="End" Text="SIGN UP" TextColor="#85d5bc" FontAttributes="Bold" FontSize="20" BorderColor="#85d5bc" BorderWidth="3" CornerRadius="10" HeightRequest="50" />
     </StackLayout>
